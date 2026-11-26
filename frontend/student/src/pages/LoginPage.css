@@ -1,0 +1,62 @@
+.registration-fields {
+  flex-shrink: 0;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #d9dde2;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.registration-field-row {
+  display: flex;
+  align-items: center;
+  min-height: 54px;
+}
+
+.registration-field-row + .registration-field-row {
+  border-top: 1px solid #d9dde2;
+}
+
+.registration-field-row:focus-within {
+  box-shadow: inset 0 0 0 2px #14919b;
+}
+
+.registration-field-label {
+  flex: 0 0 64px;
+  text-align: center;
+  font-size: 14px;
+  color: #363c45;
+}
+
+.registration-field-row input {
+  flex: 1;
+  min-width: 0;
+  width: 0;
+  height: 52px;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  padding: 0 8px 0 0;
+  font-size: 14px;
+  color: #1a1d23;
+}
+
+.registration-field-row input::placeholder {
+  color: #8a9099;
+  opacity: 1;
+}
+
+/* Keep browser-saved credentials on the same white surface without disabling autofill. */
+.registration-field-row input:is(:autofill, :-webkit-autofill) {
+  box-shadow: 0 0 0 1000px #fff inset;
+  -webkit-text-fill-color: #1a1d23;
+  caret-color: #1a1d23;
+}
+
+@media (max-width: 420px) {
+  .registration-field-label { flex-basis: 50px; font-size: 13px; }
+}
+@media (max-width: 360px) {
+  .registration-field-label { flex-basis: 44px; }
+}

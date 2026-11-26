@@ -1,0 +1,47 @@
+:root {
+  --op-color-bg: #f5f3ef;
+  --op-color-surface: #ffffff;
+  --op-color-text: #1a1d23;
+  --op-color-muted: #697386;
+  --op-color-border: #e6e8ee;
+  --op-color-primary: #14919b;
+  --op-color-primary-dark: #0d7377;
+  --op-color-primary-soft: #e6f7f8;
+  --op-color-success: #52c41a;
+  --op-color-warning: #faad14;
+  --op-color-danger: #ff4d4f;
+  --op-color-info: #1677ff;
+  --op-color-nav: #1a1d23;
+
+  --op-radius-sm: 6px;
+  --op-radius-md: 10px;
+  --op-radius-lg: 16px;
+  --op-radius-xl: 20px;
+  --op-radius-pill: 999px;
+
+  --op-space-1: 4px;
+  --op-space-2: 8px;
+  --op-space-3: 12px;
+  --op-space-4: 16px;
+  --op-space-5: 20px;
+  --op-space-6: 24px;
+  --op-space-8: 32px;
+
+  --op-font-xs: 12px;
+  --op-font-sm: 13px;
+  --op-font-base: 14px;
+  --op-font-md: 16px;
+  --op-font-lg: 20px;
+  --op-font-xl: 24px;
+  --op-font-2xl: 32px;
+
+  --op-shadow-card: 0 18px 48px rgba(38, 45, 52, 0.06);
+  --op-shadow-hover: 0 16px 36px rgba(20, 145, 155, 0.1);
+
+  --op-page-max-width: 1180px;
+  --op-touch-target: 44px;
+}
+
+.op-touch-target {
+  min-height: var(--op-touch-target);
+}

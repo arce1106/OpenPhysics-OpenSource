@@ -1,0 +1,72 @@
+.math-text {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.math-inline {
+  display: inline;
+  white-space: nowrap;
+}
+
+.math-inline .katex {
+  font-size: 1.03em;
+  line-height: 1;
+}
+
+.math-image-row {
+  align-items: flex-end;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 14px;
+  justify-content: center;
+  margin: 8px 0;
+  max-width: 100%;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.math-image-row-item {
+  align-items: center;
+  display: inline-flex;
+  gap: 6px;
+}
+
+.math-image-block {
+  display: block;
+  line-height: 1;
+  margin: 4px 0 2px;
+  text-align: center;
+}
+
+.math-image-row img {
+  max-height: 32mm !important;
+  max-width: min(30vw, calc(44mm * var(--question-image-scale, 1))) !important;
+}
+
+.math-block {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 2px 0;
+  margin: 8px 0;
+}
+
+.math-block .katex-display {
+  margin: 0.35em 0;
+}
+
+.math-block .katex {
+  font-size: 1.08em;
+}
+
+/* Boost fraction readability without blowing up simple inline expressions */
+.katex .mfrac {
+  font-size: 1.45em;
+}
+
+/* KaTeX sizes radicals before our fraction boost runs. If a fraction inside
+   \sqrt is enlarged afterward, it can spill outside the radical. */
+.katex .sqrt .mfrac {
+  font-size: 1em;
+}

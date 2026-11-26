@@ -1,0 +1,135 @@
+name: openphysics-selfhost
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: openphysics
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Run python3 scripts/init_self_hosted.py first}
+      POSTGRES_DB: openphysics_selfhost
+    ports:
+      - "127.0.0.1:5543:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: [CMD-SHELL, "pg_isready -U openphysics -d openphysics_selfhost"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "127.0.0.1:6389:6379"
+    healthcheck:
+      test: [CMD, redis-cli, ping]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  backend:
+    image: ${BACKEND_IMAGE:-openphysics-selfhost-backend:local}
+    build:
+      context: .
+      dockerfile: backend/Dockerfile.dev
+      args:
+        NPM_REGISTRY: ${NPM_CONFIG_REGISTRY:-https://registry.npmjs.org}
+    entrypoint: [/bin/bash, /app/entrypoint.dev.sh]
+    command: []
+    env_file: .env
+    environment:
+      DATABASE_URL: postgresql+asyncpg://openphysics:${POSTGRES_PASSWORD}@postgres:5432/openphysics_selfhost
+      REDIS_URL: redis://redis:6379/0
+      PYTHONPATH: /app
+      OPENPHYSICS_RENDER_RICH_CONTENT: "true"
+    volumes:
+      - ./backend:/app
+    ports:
+      - "127.0.0.1:8010:8000"
+    healthcheck:
+      test: [CMD, python, -c, "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health/ready', timeout=3)"]
+      interval: 5s
+      timeout: 5s
+      start_period: 60s
+      retries: 24
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+
+  student-frontend:
+    image: node:22-alpine
+    working_dir: /app
+    command: sh -c "npm ci --no-audit --no-fund && npm run dev -- --host 0.0.0.0"
+    environment:
+      VITE_API_TARGET: http://backend:8000
+      NPM_CONFIG_REGISTRY: ${NPM_CONFIG_REGISTRY:-https://registry.npmjs.org}
+      VITE_ANDROID_APK_URL: ${VITE_ANDROID_APK_URL:-}
+      VITE_ANDROID_DOWNLOAD_QR_URL: ${VITE_ANDROID_DOWNLOAD_QR_URL:-}
+      VITE_ANDROID_TABLET_PREVIEW_URL: ${VITE_ANDROID_TABLET_PREVIEW_URL:-}
+      VITE_LEGAL_CONTACT_EMAIL: ${VITE_LEGAL_CONTACT_EMAIL:-}
+      VITE_LEGAL_OPERATOR_NAME: ${VITE_LEGAL_OPERATOR_NAME:-}
+      VITE_ICP_FILING: ${VITE_ICP_FILING:-}
+    volumes:
+      - ./frontend/student:/app
+      - student_node_modules:/app/node_modules
+      - ./frontend/shared:/shared:ro
+    ports:
+      - "127.0.0.1:5183:5173"
+    healthcheck:
+      test: [CMD, node, -e, "fetch('http://127.0.0.1:5173/').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 5s
+      timeout: 5s
+      start_period: 5m
+      retries: 24
+    depends_on: [backend]
+
+  admin-frontend:
+    image: node:22-alpine
+    working_dir: /app
+    command: sh -c "npm ci --no-audit --no-fund && npm run dev -- --host 0.0.0.0"
+    environment:
+      VITE_API_TARGET: http://backend:8000
+      NPM_CONFIG_REGISTRY: ${NPM_CONFIG_REGISTRY:-https://registry.npmjs.org}
+    volumes:
+      - ./frontend/admin:/app
+      - admin_node_modules:/app/node_modules
+      - ./frontend/shared:/shared:ro
+    ports:
+      - "127.0.0.1:5184:5174"
+    healthcheck:
+      test: [CMD, node, -e, "fetch('http://127.0.0.1:5174/').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 5s
+      timeout: 5s
+      start_period: 5m
+      retries: 24
+    depends_on: [backend]
+
+
+  teacher-frontend:
+    image: node:22-alpine
+    working_dir: /app
+    command: sh -c "npm ci --no-audit --no-fund && npm run dev -- --host 0.0.0.0"
+    environment:
+      VITE_API_TARGET: http://backend:8000
+      NPM_CONFIG_REGISTRY: ${NPM_CONFIG_REGISTRY:-https://registry.npmjs.org}
+    volumes:
+      - ./frontend/teacher:/app
+      - teacher_node_modules:/app/node_modules
+      - ./frontend/shared:/shared:ro
+    ports:
+      - "127.0.0.1:5186:5176"
+    healthcheck:
+      test: [CMD, node, -e, "fetch('http://127.0.0.1:5176/').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 5s
+      timeout: 5s
+      start_period: 5m
+      retries: 24
+    depends_on: [backend]
+
+volumes:
+  pgdata:
+  student_node_modules:
+  admin_node_modules:
+  teacher_node_modules:

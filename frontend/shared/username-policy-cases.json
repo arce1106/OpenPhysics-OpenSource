@@ -1,0 +1,4 @@
+{
+  "valid": ["物理", "演示学习者", "一二三四五六七八", "abcd", "abcdefghijklmnop", "物理seed_2026", "12物理", "A_中"],
+  "invalid": ["", "中", "abc", "1234", "____", "abc!", "ab c", " abcd", "abcd ", "一二三四五六七八九", "abcdefghijklmnopq", "演示学习者abc1234", "😀ab", "ＡＢＣＤ", "абвг"]
+}

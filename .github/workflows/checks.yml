@@ -1,0 +1,68 @@
+name: self-hosted-source-checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  repository-and-backend:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_USER: openphysics
+          POSTGRES_PASSWORD: openphysics
+          POSTGRES_DB: openphysics_bootstrap_test
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U openphysics -d openphysics_bootstrap_test"
+          --health-interval 5s --health-timeout 5s --health-retries 20
+    env:
+      PYTHONPATH: backend
+      DATABASE_URL: postgresql+asyncpg://openphysics:openphysics@localhost:5432/openphysics_bootstrap_test
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: python scripts/check_public_export.py
+      - run: python -m unittest discover -s scripts/tests -v
+      - run: sudo apt-get update && sudo apt-get install -y build-essential libcairo2-dev libpango1.0-dev pkg-config ffmpeg
+      - run: pip install -r backend/requirements.txt
+      - run: pytest -q backend/tests/test_ai_optional_configuration.py backend/tests/test_distribution_boundary.py backend/tests/test_self_hosted_access.py backend/tests/test_demo_content.py backend/tests/test_production_config.py
+      - name: Verify fresh database migrations and repeatable demo import
+        env:
+          PYTHONPATH: .
+        working-directory: backend
+        run: |
+          alembic upgrade head
+          python scripts/check_self_hosted_schema.py
+          python -m app.seed.seed_demo
+          python -m app.seed.seed_demo
+
+  web-builds:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        directory:
+          - frontend/student
+          - frontend/admin
+          - frontend/teacher
+          - backend/panes/learning-content-pane
+    defaults:
+      run:
+        working-directory: ${{ matrix.directory }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+      - run: npm ci --no-audit --no-fund
+      - run: npm test
+      - run: npm run build

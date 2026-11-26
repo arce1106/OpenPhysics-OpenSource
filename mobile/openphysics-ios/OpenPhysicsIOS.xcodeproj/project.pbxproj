@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D11000000000000000000001 /* PrivacyConsent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21000000000000000000001 /* PrivacyConsent.swift */; };
+		E10000000000000000000001 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = E20000000000000000000001 /* PrivacyInfo.xcprivacy */; };
+		A10000000000000000000001 /* OpenPhysicsIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000001 /* OpenPhysicsIOSApp.swift */; };
+		A10000000000000000000002 /* AppSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000002 /* AppSession.swift */; };
+		A10000000000000000000003 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000003 /* AppConfig.swift */; };
+		A10000000000000000000004 /* OpenPhysicsTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000004 /* OpenPhysicsTheme.swift */; };
+		A10000000000000000000005 /* StudentSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000005 /* StudentSession.swift */; };
+		A10000000000000000000006 /* DashboardModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000006 /* DashboardModels.swift */; };
+		A10000000000000000000007 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000007 /* APIClient.swift */; };
+		A10000000000000000000008 /* KeychainStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000008 /* KeychainStore.swift */; };
+		A10000000000000000000009 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000009 /* LoginView.swift */; };
+		A1000000000000000000000A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000A /* HomeView.swift */; };
+		A1000000000000000000000B /* SectionPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000B /* SectionPlaceholderView.swift */; };
+		A1000000000000000000000C /* MainShellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000C /* MainShellView.swift */; };
+		A1000000000000000000000D /* APIModelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000E /* APIModelsTests.swift */; };
+		A1000000000000000000000E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A20000000000000000000011 /* Security.framework */; };
+		A1000000000000000000000F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A20000000000000000000012 /* XCTest.framework */; };
+		A10000000000000000000010 /* PracticeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000013 /* PracticeModels.swift */; };
+		A10000000000000000000011 /* PracticeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000014 /* PracticeStore.swift */; };
+		A10000000000000000000012 /* QuestionPaneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000015 /* QuestionPaneView.swift */; };
+		A10000000000000000000013 /* PracticeWorkspaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000016 /* PracticeWorkspaceView.swift */; };
+		A10000000000000000000014 /* AnswerDraftFileStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000017 /* AnswerDraftFileStore.swift */; };
+		A10000000000000000000015 /* PencilCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000018 /* PencilCanvasView.swift */; };
+		A10000000000000000000016 /* MultipartFormDataFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000019 /* MultipartFormDataFile.swift */; };
+		A10000000000000000000017 /* SyncLearningModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000001A /* SyncLearningModels.swift */; };
+		A10000000000000000000018 /* SyncLearningStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000001B /* SyncLearningStore.swift */; };
+		A10000000000000000000019 /* KnowledgeCardPaneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000001C /* KnowledgeCardPaneView.swift */; };
+		A1000000000000000000001A /* SyncLearningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000001D /* SyncLearningView.swift */; };
+		A1000000000000000000001B /* ChapterKnowledgeGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000001E /* ChapterKnowledgeGraphView.swift */; };
+		A1000000000000000000001C /* LearningResourceViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000001F /* LearningResourceViews.swift */; };
+		A1000000000000000000001D /* PracticeWorkspaceComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000020 /* PracticeWorkspaceComponents.swift */; };
+		A1000000000000000000001E /* ReinforcementModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000021 /* ReinforcementModels.swift */; };
+		A1000000000000000000001F /* ReinforcementStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000022 /* ReinforcementStore.swift */; };
+		A10000000000000000000020 /* ReinforcementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000023 /* ReinforcementView.swift */; };
+		A10000000000000000000021 /* ReviewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000024 /* ReviewModels.swift */; };
+		A10000000000000000000022 /* ReviewStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000025 /* ReviewStore.swift */; };
+		A10000000000000000000023 /* ReviewPaneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000026 /* ReviewPaneView.swift */; };
+		A10000000000000000000024 /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000027 /* ReviewView.swift */; };
+		A10000000000000000000025 /* PracticeHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000028 /* PracticeHistoryView.swift */; };
+		A10000000000000000000026 /* GaokaoReviewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000029 /* GaokaoReviewModels.swift */; };
+		A10000000000000000000027 /* GaokaoReviewStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000002A /* GaokaoReviewStore.swift */; };
+		A10000000000000000000028 /* GaokaoReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000002B /* GaokaoReviewView.swift */; };
+		B10000000000000000000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000001 /* Assets.xcassets */; };
+		C10000000000000000000001 /* LessonVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20000000000000000000001 /* LessonVideoView.swift */; };
+		C10000000000000000000002 /* TeacherPaperReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20000000000000000000002 /* TeacherPaperReviewView.swift */; };
+		C10000000000000000000003 /* AccountModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20000000000000000000003 /* AccountModels.swift */; };
+		C10000000000000000000004 /* AccountFormState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20000000000000000000004 /* AccountFormState.swift */; };
+		C10000000000000000000005 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20000000000000000000005 /* AccountView.swift */; };
+		C10000000000000000000006 /* AnswerPhotoCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20000000000000000000006 /* AnswerPhotoCaptureView.swift */; };
+		C10000000000000000000007 /* LearningVideoLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20000000000000000000007 /* LearningVideoLink.swift */; };
+		F31000000000000000000001 /* StudentClassModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32000000000000000000001 /* StudentClassModels.swift */; };
+		F31000000000000000000002 /* StudentClassesStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32000000000000000000002 /* StudentClassesStore.swift */; };
+		F31000000000000000000003 /* StudentClassesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32000000000000000000003 /* StudentClassesView.swift */; };
+		F31000000000000000000004 /* StudentClassesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32000000000000000000004 /* StudentClassesTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A30000000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A70000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A40000000000000000000001;
+			remoteInfo = OpenPhysicsIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D21000000000000000000001 /* PrivacyConsent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Security/PrivacyConsent.swift; sourceTree = "<group>"; };
+		E20000000000000000000001 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		A20000000000000000000001 /* OpenPhysicsIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenPhysicsIOSApp.swift; sourceTree = "<group>"; };
+		A20000000000000000000002 /* AppSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/AppSession.swift; sourceTree = "<group>"; };
+		A20000000000000000000003 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config/AppConfig.swift; sourceTree = "<group>"; };
+		A20000000000000000000004 /* OpenPhysicsTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design/OpenPhysicsTheme.swift; sourceTree = "<group>"; };
+		A20000000000000000000005 /* StudentSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/StudentSession.swift; sourceTree = "<group>"; };
+		A20000000000000000000006 /* DashboardModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/DashboardModels.swift; sourceTree = "<group>"; };
+		A20000000000000000000007 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking/APIClient.swift; sourceTree = "<group>"; };
+		A20000000000000000000008 /* KeychainStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Security/KeychainStore.swift; sourceTree = "<group>"; };
+		A20000000000000000000009 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Login/LoginView.swift; sourceTree = "<group>"; };
+		A2000000000000000000000A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Home/HomeView.swift; sourceTree = "<group>"; };
+		A2000000000000000000000B /* SectionPlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Shared/SectionPlaceholderView.swift; sourceTree = "<group>"; };
+		A2000000000000000000000C /* MainShellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Shell/MainShellView.swift; sourceTree = "<group>"; };
+		A2000000000000000000000D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2000000000000000000000E /* APIModelsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModelsTests.swift; sourceTree = "<group>"; };
+		A2000000000000000000000F /* OpenPhysicsIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenPhysicsIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20000000000000000000010 /* OpenPhysicsIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenPhysicsIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20000000000000000000011 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A20000000000000000000012 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = System/Library/Frameworks/XCTest.framework; sourceTree = SDKROOT; };
+		A20000000000000000000013 /* PracticeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/PracticeModels.swift; sourceTree = "<group>"; };
+		A20000000000000000000014 /* PracticeStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Practice/PracticeStore.swift; sourceTree = "<group>"; };
+		A20000000000000000000015 /* QuestionPaneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Practice/QuestionPaneView.swift; sourceTree = "<group>"; };
+		A20000000000000000000016 /* PracticeWorkspaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Practice/PracticeWorkspaceView.swift; sourceTree = "<group>"; };
+		A20000000000000000000017 /* AnswerDraftFileStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage/AnswerDraftFileStore.swift; sourceTree = "<group>"; };
+		A20000000000000000000018 /* PencilCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Practice/PencilCanvasView.swift; sourceTree = "<group>"; };
+		A20000000000000000000019 /* MultipartFormDataFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking/MultipartFormDataFile.swift; sourceTree = "<group>"; };
+		A2000000000000000000001A /* SyncLearningModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/SyncLearningModels.swift; sourceTree = "<group>"; };
+		A2000000000000000000001B /* SyncLearningStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/SyncLearning/SyncLearningStore.swift; sourceTree = "<group>"; };
+		A2000000000000000000001C /* KnowledgeCardPaneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/SyncLearning/KnowledgeCardPaneView.swift; sourceTree = "<group>"; };
+		A2000000000000000000001D /* SyncLearningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/SyncLearning/SyncLearningView.swift; sourceTree = "<group>"; };
+		A2000000000000000000001E /* ChapterKnowledgeGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/SyncLearning/ChapterKnowledgeGraphView.swift; sourceTree = "<group>"; };
+		A2000000000000000000001F /* LearningResourceViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/SyncLearning/LearningResourceViews.swift; sourceTree = "<group>"; };
+		A20000000000000000000020 /* PracticeWorkspaceComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Practice/PracticeWorkspaceComponents.swift; sourceTree = "<group>"; };
+		A20000000000000000000021 /* ReinforcementModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/ReinforcementModels.swift; sourceTree = "<group>"; };
+		A20000000000000000000022 /* ReinforcementStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Reinforcement/ReinforcementStore.swift; sourceTree = "<group>"; };
+		A20000000000000000000023 /* ReinforcementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Reinforcement/ReinforcementView.swift; sourceTree = "<group>"; };
+		A20000000000000000000024 /* ReviewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/ReviewModels.swift; sourceTree = "<group>"; };
+		A20000000000000000000025 /* ReviewStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Review/ReviewStore.swift; sourceTree = "<group>"; };
+		A20000000000000000000026 /* ReviewPaneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Review/ReviewPaneView.swift; sourceTree = "<group>"; };
+		A20000000000000000000027 /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Review/ReviewView.swift; sourceTree = "<group>"; };
+		A20000000000000000000028 /* PracticeHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/History/PracticeHistoryView.swift; sourceTree = "<group>"; };
+		A20000000000000000000029 /* GaokaoReviewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/GaokaoReviewModels.swift; sourceTree = "<group>"; };
+		A2000000000000000000002A /* GaokaoReviewStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/GaokaoReview/GaokaoReviewStore.swift; sourceTree = "<group>"; };
+		A2000000000000000000002B /* GaokaoReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/GaokaoReview/GaokaoReviewView.swift; sourceTree = "<group>"; };
+		B20000000000000000000001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C20000000000000000000001 /* LessonVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Shared/LessonVideoView.swift; sourceTree = "<group>"; };
+		C20000000000000000000002 /* TeacherPaperReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/GaokaoReview/TeacherPaperReviewView.swift; sourceTree = "<group>"; };
+		C20000000000000000000003 /* AccountModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/AccountModels.swift; sourceTree = "<group>"; };
+		C20000000000000000000004 /* AccountFormState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Account/AccountFormState.swift; sourceTree = "<group>"; };
+		C20000000000000000000005 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Account/AccountView.swift; sourceTree = "<group>"; };
+		C20000000000000000000006 /* AnswerPhotoCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Practice/AnswerPhotoCaptureView.swift; sourceTree = "<group>"; };
+		C20000000000000000000007 /* LearningVideoLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/SyncLearning/LearningVideoLink.swift; sourceTree = "<group>"; };
+		F32000000000000000000001 /* StudentClassModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/StudentClassModels.swift; sourceTree = "<group>"; };
+		F32000000000000000000002 /* StudentClassesStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Account/StudentClassesStore.swift; sourceTree = "<group>"; };
+		F32000000000000000000003 /* StudentClassesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Account/StudentClassesView.swift; sourceTree = "<group>"; };
+		F32000000000000000000004 /* StudentClassesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentClassesTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A50000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000000000000000000000E /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50000000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000000000000000000000F /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A60000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A60000000000000000000002 /* OpenPhysicsIOS */,
+				A60000000000000000000003 /* OpenPhysicsIOSTests */,
+				A60000000000000000000004 /* Frameworks */,
+				A60000000000000000000005 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A60000000000000000000002 /* OpenPhysicsIOS */ = {
+			isa = PBXGroup;
+			children = (
+				F32000000000000000000003 /* StudentClassesView.swift */,
+				F32000000000000000000002 /* StudentClassesStore.swift */,
+				F32000000000000000000001 /* StudentClassModels.swift */,
+				A20000000000000000000001 /* OpenPhysicsIOSApp.swift */,
+				C20000000000000000000006 /* AnswerPhotoCaptureView.swift */,
+				C20000000000000000000007 /* LearningVideoLink.swift */,
+				C20000000000000000000005 /* AccountView.swift */,
+				C20000000000000000000004 /* AccountFormState.swift */,
+				C20000000000000000000003 /* AccountModels.swift */,
+				D21000000000000000000001 /* PrivacyConsent.swift */,
+				C20000000000000000000002 /* TeacherPaperReviewView.swift */,
+				C20000000000000000000001 /* LessonVideoView.swift */,
+				B20000000000000000000001 /* Assets.xcassets */,
+				A20000000000000000000002 /* AppSession.swift */,
+				A20000000000000000000003 /* AppConfig.swift */,
+				A20000000000000000000004 /* OpenPhysicsTheme.swift */,
+				A20000000000000000000005 /* StudentSession.swift */,
+				A20000000000000000000006 /* DashboardModels.swift */,
+				A20000000000000000000007 /* APIClient.swift */,
+				A20000000000000000000008 /* KeychainStore.swift */,
+				A20000000000000000000009 /* LoginView.swift */,
+				A2000000000000000000000A /* HomeView.swift */,
+				A2000000000000000000000B /* SectionPlaceholderView.swift */,
+				A2000000000000000000000C /* MainShellView.swift */,
+				A20000000000000000000013 /* PracticeModels.swift */,
+				A20000000000000000000014 /* PracticeStore.swift */,
+				A20000000000000000000015 /* QuestionPaneView.swift */,
+				A20000000000000000000016 /* PracticeWorkspaceView.swift */,
+				A20000000000000000000020 /* PracticeWorkspaceComponents.swift */,
+				A20000000000000000000021 /* ReinforcementModels.swift */,
+				A20000000000000000000022 /* ReinforcementStore.swift */,
+				A20000000000000000000023 /* ReinforcementView.swift */,
+				A20000000000000000000024 /* ReviewModels.swift */,
+				A20000000000000000000025 /* ReviewStore.swift */,
+				A20000000000000000000026 /* ReviewPaneView.swift */,
+				A20000000000000000000027 /* ReviewView.swift */,
+				A20000000000000000000028 /* PracticeHistoryView.swift */,
+				A20000000000000000000029 /* GaokaoReviewModels.swift */,
+				A2000000000000000000002A /* GaokaoReviewStore.swift */,
+				A2000000000000000000002B /* GaokaoReviewView.swift */,
+				A20000000000000000000017 /* AnswerDraftFileStore.swift */,
+				A20000000000000000000018 /* PencilCanvasView.swift */,
+				A20000000000000000000019 /* MultipartFormDataFile.swift */,
+				A2000000000000000000001A /* SyncLearningModels.swift */,
+				A2000000000000000000001B /* SyncLearningStore.swift */,
+				A2000000000000000000001C /* KnowledgeCardPaneView.swift */,
+				A2000000000000000000001D /* SyncLearningView.swift */,
+				A2000000000000000000001E /* ChapterKnowledgeGraphView.swift */,
+				A2000000000000000000001F /* LearningResourceViews.swift */,
+				A2000000000000000000000D /* Info.plist */,
+				E20000000000000000000001 /* PrivacyInfo.xcprivacy */,
+			);
+			path = OpenPhysicsIOS;
+			sourceTree = "<group>";
+		};
+		A60000000000000000000003 /* OpenPhysicsIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				F32000000000000000000004 /* StudentClassesTests.swift */,
+				A2000000000000000000000E /* APIModelsTests.swift */,
+			);
+			path = OpenPhysicsIOSTests;
+			sourceTree = "<group>";
+		};
+		A60000000000000000000004 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000011 /* Security.framework */,
+				A20000000000000000000012 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A60000000000000000000005 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2000000000000000000000F /* OpenPhysicsIOS.app */,
+				A20000000000000000000010 /* OpenPhysicsIOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A40000000000000000000001 /* OpenPhysicsIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB0000000000000000000001 /* Build configuration list for PBXNativeTarget "OpenPhysicsIOS" */;
+			buildPhases = (
+				A80000000000000000000001 /* Sources */,
+				A50000000000000000000001 /* Frameworks */,
+				A90000000000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenPhysicsIOS;
+			productName = OpenPhysicsIOS;
+			productReference = A2000000000000000000000F /* OpenPhysicsIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A40000000000000000000002 /* OpenPhysicsIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB0000000000000000000002 /* Build configuration list for PBXNativeTarget "OpenPhysicsIOSTests" */;
+			buildPhases = (
+				A80000000000000000000002 /* Sources */,
+				A50000000000000000000002 /* Frameworks */,
+				A90000000000000000000002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA0000000000000000000001 /* PBXTargetDependency */,
+			);
+			name = OpenPhysicsIOSTests;
+			productName = OpenPhysicsIOSTests;
+			productReference = A20000000000000000000010 /* OpenPhysicsIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A70000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					A40000000000000000000001 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					A40000000000000000000002 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = A40000000000000000000001;
+					};
+				};
+			};
+			buildConfigurationList = AB0000000000000000000000 /* Build configuration list for PBXProject "OpenPhysicsIOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = zh_CN;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				zh_CN,
+				Base,
+				en,
+			);
+			mainGroup = A60000000000000000000001;
+			productRefGroup = A60000000000000000000005 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A40000000000000000000001 /* OpenPhysicsIOS */,
+				A40000000000000000000002 /* OpenPhysicsIOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A90000000000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10000000000000000000001 /* Assets.xcassets in Resources */,
+				E10000000000000000000001 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A90000000000000000000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A80000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31000000000000000000003 /* StudentClassesView.swift in Sources */,
+				F31000000000000000000002 /* StudentClassesStore.swift in Sources */,
+				F31000000000000000000001 /* StudentClassModels.swift in Sources */,
+				A10000000000000000000001 /* OpenPhysicsIOSApp.swift in Sources */,
+				C10000000000000000000006 /* AnswerPhotoCaptureView.swift in Sources */,
+				C10000000000000000000007 /* LearningVideoLink.swift in Sources */,
+				C10000000000000000000005 /* AccountView.swift in Sources */,
+				C10000000000000000000004 /* AccountFormState.swift in Sources */,
+				C10000000000000000000003 /* AccountModels.swift in Sources */,
+				D11000000000000000000001 /* PrivacyConsent.swift in Sources */,
+				C10000000000000000000002 /* TeacherPaperReviewView.swift in Sources */,
+				C10000000000000000000001 /* LessonVideoView.swift in Sources */,
+				A10000000000000000000002 /* AppSession.swift in Sources */,
+				A10000000000000000000003 /* AppConfig.swift in Sources */,
+				A10000000000000000000004 /* OpenPhysicsTheme.swift in Sources */,
+				A10000000000000000000005 /* StudentSession.swift in Sources */,
+				A10000000000000000000006 /* DashboardModels.swift in Sources */,
+				A10000000000000000000007 /* APIClient.swift in Sources */,
+				A10000000000000000000008 /* KeychainStore.swift in Sources */,
+				A10000000000000000000009 /* LoginView.swift in Sources */,
+				A1000000000000000000000A /* HomeView.swift in Sources */,
+				A1000000000000000000000B /* SectionPlaceholderView.swift in Sources */,
+				A1000000000000000000000C /* MainShellView.swift in Sources */,
+				A10000000000000000000010 /* PracticeModels.swift in Sources */,
+				A10000000000000000000011 /* PracticeStore.swift in Sources */,
+				A10000000000000000000012 /* QuestionPaneView.swift in Sources */,
+				A10000000000000000000013 /* PracticeWorkspaceView.swift in Sources */,
+				A10000000000000000000014 /* AnswerDraftFileStore.swift in Sources */,
+				A10000000000000000000015 /* PencilCanvasView.swift in Sources */,
+				A10000000000000000000016 /* MultipartFormDataFile.swift in Sources */,
+				A10000000000000000000017 /* SyncLearningModels.swift in Sources */,
+				A10000000000000000000018 /* SyncLearningStore.swift in Sources */,
+				A10000000000000000000019 /* KnowledgeCardPaneView.swift in Sources */,
+				A1000000000000000000001A /* SyncLearningView.swift in Sources */,
+				A1000000000000000000001B /* ChapterKnowledgeGraphView.swift in Sources */,
+				A1000000000000000000001C /* LearningResourceViews.swift in Sources */,
+				A1000000000000000000001D /* PracticeWorkspaceComponents.swift in Sources */,
+				A1000000000000000000001E /* ReinforcementModels.swift in Sources */,
+				A1000000000000000000001F /* ReinforcementStore.swift in Sources */,
+				A10000000000000000000020 /* ReinforcementView.swift in Sources */,
+				A10000000000000000000021 /* ReviewModels.swift in Sources */,
+				A10000000000000000000022 /* ReviewStore.swift in Sources */,
+				A10000000000000000000023 /* ReviewPaneView.swift in Sources */,
+				A10000000000000000000024 /* ReviewView.swift in Sources */,
+				A10000000000000000000025 /* PracticeHistoryView.swift in Sources */,
+				A10000000000000000000026 /* GaokaoReviewModels.swift in Sources */,
+				A10000000000000000000027 /* GaokaoReviewStore.swift in Sources */,
+				A10000000000000000000028 /* GaokaoReviewView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A80000000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31000000000000000000004 /* StudentClassesTests.swift in Sources */,
+				A1000000000000000000000D /* APIModelsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA0000000000000000000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A40000000000000000000001 /* OpenPhysicsIOS */;
+			targetProxy = A30000000000000000000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AC0000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC0000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC0000000000000000000011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = OpenPhysicsIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				OPENPHYSICS_API_BASE_URL = "http://localhost:8010/api/student";
+				PRODUCT_BUNDLE_IDENTIFIER = org.example.openphysics.ios;
+				PRODUCT_MODULE_NAME = OpenPhysicsIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC0000000000000000000012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = OpenPhysicsIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				OPENPHYSICS_API_BASE_URL = "https://openphysics.example/api/student";
+				PRODUCT_BUNDLE_IDENTIFIER = org.example.openphysics.ios;
+				PRODUCT_MODULE_NAME = OpenPhysicsIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC0000000000000000000021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.example.openphysics.ios.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenPhysicsIOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OpenPhysicsIOS";
+			};
+			name = Debug;
+		};
+		AC0000000000000000000022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.example.openphysics.ios.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenPhysicsIOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OpenPhysicsIOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB0000000000000000000000 /* Build configuration list for PBXProject "OpenPhysicsIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0000000000000000000001 /* Debug */,
+				AC0000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB0000000000000000000001 /* Build configuration list for PBXNativeTarget "OpenPhysicsIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0000000000000000000011 /* Debug */,
+				AC0000000000000000000012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB0000000000000000000002 /* Build configuration list for PBXNativeTarget "OpenPhysicsIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0000000000000000000021 /* Debug */,
+				AC0000000000000000000022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A70000000000000000000001 /* Project object */;
+}

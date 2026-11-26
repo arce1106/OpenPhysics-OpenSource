@@ -1,0 +1,62 @@
+.teacher-paper-review {
+  max-width: 1120px;
+  padding-top: 20px;
+  padding-bottom: 36px;
+}
+
+.teacher-paper-review-header,
+.teacher-paper-review-footer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.teacher-paper-review-header h1 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.teacher-paper-review-score {
+  display: grid;
+  gap: 2px;
+  margin: 0 0 0 auto;
+  text-align: right;
+}
+
+.teacher-paper-review-score strong {
+  color: #0d7377;
+  font-size: 18px;
+  font-variant-numeric: tabular-nums;
+}
+
+.teacher-paper-review-score span {
+  color: #697386;
+  font-size: 12px;
+}
+
+.teacher-paper-review-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin: 24px 0;
+}
+
+.teacher-paper-review-number {
+  margin: 0 0 12px;
+  font-size: 18px;
+  color: #31555d;
+}
+
+.teacher-paper-review-list .question-card-workspace {
+  margin-bottom: 0;
+}
+
+.teacher-paper-review .math-inline {
+  white-space: normal;
+}
+
+@media (max-width: 640px) {
+  .teacher-paper-review { padding-top: 12px; }
+  .teacher-paper-review-header h1 { font-size: 17px; }
+}

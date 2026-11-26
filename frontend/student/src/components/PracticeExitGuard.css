@@ -1,0 +1,9 @@
+.practice-exit-overlay { position: fixed; inset: 0; z-index: 2000; background: rgb(20 35 49 / 48%); display: grid; place-items: center; padding: 20px; }
+.practice-exit-dialog { width: min(100%, 440px); padding: 28px; border-radius: 20px; background: #fff; color: #203038; box-shadow: 0 20px 70px rgb(0 0 0 / 18%); }
+.practice-exit-dialog h2 { margin: 0 0 16px; font-size: 22px; }
+.practice-exit-dialog p { margin: 0 0 24px; line-height: 1.8; color: #53616c; }
+.practice-exit-actions { display: flex; justify-content: flex-end; gap: 12px; flex-wrap: wrap; }
+.practice-exit-actions button { padding: 11px 18px; border: 1px solid #d8e1e4; border-radius: 10px; background: #fff; color: #203038; font: inherit; cursor: pointer; }
+.practice-exit-actions .practice-exit-confirm { background: #b64236; color: white; border-color: #b64236; }
+.practice-exit-actions button:focus-visible { outline: 3px solid #347e8d; outline-offset: 3px; }
+.practice-exit-actions button:disabled { opacity: .5; cursor: wait; }

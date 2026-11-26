@@ -1,0 +1,39 @@
+**/node_modules
+**/.venv
+**/__pycache__
+**/.pytest_cache
+**/.vite
+**/*.tsbuildinfo
+.git
+.env
+.env.*
+.local
+**/.env
+**/.env.local
+**/.env.*.local
+*.log
+**/*.log
+
+# Local recovery points, credentials and retired/generated artifacts are not
+# application image inputs. Live answer images are provided by the static bind
+# mount; keep question images and the current public APK in the build context.
+backups
+dist
+output
+mobile
+packages
+docs
+.claude
+.codex
+.github
+.deploy-cache
+**/.DS_Store
+**/dist
+**/.gradle
+**/coverage
+**/playwright-report
+**/test-results
+**/*.pem
+**/*.jks
+**/*.keystore
+backend/static/uploads

@@ -1,0 +1,33 @@
+{
+  "questions": [
+    {
+      "id": "q_0001",
+      "stem_text": "一辆小车沿直线运动，速度在 2 s 内由 2 m/s 增加到 8 m/s，方向保持不变。这段时间内小车的平均加速度大小是多少？",
+      "question_type": "single_choice",
+      "answer": "A",
+      "explanation": "平均加速度等于速度变化量与时间间隔之比：$a=\\frac{8-2}{2}\\,\\mathrm{m/s^2}=3\\,\\mathrm{m/s^2}$。",
+      "difficulty": 1.0,
+      "difficulty_tier": "easy",
+      "source": "ai_generated",
+      "quality_status": "draft",
+      "options": [
+        {"label": "A", "text": "$3\\,\\mathrm{m/s^2}$", "is_correct": true},
+        {"label": "B", "text": "$6\\,\\mathrm{m/s^2}$", "is_correct": false},
+        {"label": "C", "text": "$8\\,\\mathrm{m/s^2}$", "is_correct": false},
+        {"label": "D", "text": "$12\\,\\mathrm{m/s^2}$", "is_correct": false}
+      ],
+      "labels": [
+        {"label_type": "knowledge_point", "label_id": "v1c1s4k01", "role": "主要", "source": "ai"},
+        {"label_type": "question_type", "label_id": "single_choice", "role": "主要", "source": "ai"},
+        {"label_type": "physics_model", "label_id": "velocity_acceleration", "role": "主要", "source": "ai"},
+        {"label_type": "question_structure", "label_id": "single_concept", "role": "主要", "source": "ai"},
+        {"label_type": "ability_dimension", "label_id": "apply", "role": "主要", "source": "ai"},
+        {"label_type": "solution_strategy", "label_id": "formula_application", "role": "主要", "source": "ai"},
+        {"label_type": "core_literacy", "label_id": "quantitative_analysis", "role": "主要", "source": "ai"},
+        {"label_type": "math_prerequisite", "label_id": "algebra", "role": "辅助", "source": "ai"}
+      ],
+      "formulas": [],
+      "images": []
+    }
+  ]
+}

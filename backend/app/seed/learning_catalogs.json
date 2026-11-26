@@ -1,0 +1,541 @@
+{
+  "catalogs": [
+    {
+      "id": "catalog_sync_learning",
+      "code": "sync_learning",
+      "name": "同步学习",
+      "description": "公开版原创演示目录。",
+      "version": 1,
+      "sort_order": 10,
+      "config": {
+        "source_mode": "knowledge_point_taxonomy",
+        "mastery_source": "knowledge_point"
+      },
+      "nodes": []
+    },
+    {
+      "id": "catalog_gaokao_review",
+      "code": "gaokao_review",
+      "name": "高考复习",
+      "version": 1,
+      "sort_order": 20,
+      "config": {
+        "source_mode": "curated_topic_mapping",
+        "mastery_source": "catalog_topic_evidence",
+        "selection_mode": "topic_relative_gradient",
+        "type_mix_mode": "topic_adaptive_profiles",
+        "difficulty_layers": [
+          {
+            "code": "foundation",
+            "name": "基础巩固",
+            "relative_band": "lower"
+          },
+          {
+            "code": "breakthrough",
+            "name": "典型突破",
+            "relative_band": "middle"
+          },
+          {
+            "code": "transfer",
+            "name": "综合迁移",
+            "relative_band": "upper"
+          }
+        ]
+      },
+      "nodes": [
+        {
+          "id": "gaokao_block_01",
+          "code": "block_01",
+          "node_type": "block",
+          "title": "一、运动与相互作用",
+          "sort_order": 1,
+          "children": [
+            {
+              "id": "gaokao_topic_01",
+              "code": "topic_01",
+              "node_type": "topic",
+              "title": "运动描述、运动图像与追及相遇",
+              "sort_order": 1,
+              "config": {
+                "display_code": "01"
+              },
+              "kp_id_prefixes": [
+                "v1c1",
+                "v1c2"
+              ],
+              "label_rules": [
+                {
+                  "label_type": "gaokao_topic",
+                  "label_id": "01",
+                  "action": "include"
+                }
+              ]
+            },
+            {
+              "id": "gaokao_topic_02",
+              "code": "topic_02",
+              "node_type": "topic",
+              "title": "受力分析、平衡与临界问题",
+              "sort_order": 2,
+              "config": {
+                "display_code": "02"
+              },
+              "kp_id_prefixes": [
+                "v1c3"
+              ],
+              "label_rules": [
+                {
+                  "label_type": "gaokao_topic",
+                  "label_id": "02",
+                  "action": "include"
+                }
+              ]
+            },
+            {
+              "id": "gaokao_topic_03",
+              "code": "topic_03",
+              "node_type": "topic",
+              "title": "牛顿运动定律及动力学模型",
+              "sort_order": 3,
+              "config": {
+                "display_code": "03"
+              },
+              "kp_id_prefixes": [
+                "v1c4"
+              ],
+              "label_rules": [
+                {
+                  "label_type": "gaokao_topic",
+                  "label_id": "03",
+                  "action": "include"
+                }
+              ]
+            },
+            {
+              "id": "gaokao_topic_04",
+              "code": "topic_04",
+              "node_type": "topic",
+              "title": "抛体运动与圆周运动",
+              "sort_order": 4,
+              "config": {
+                "display_code": "04"
+              },
+              "kp_id_prefixes": [
+                "v2c5",
+                "v2c6"
+              ],
+              "label_rules": [
+                {
+                  "label_type": "gaokao_topic",
+                  "label_id": "04",
+                  "action": "include"
+                }
+              ]
+            },
+            {
+              "id": "gaokao_topic_05",
+              "code": "topic_05",
+              "node_type": "topic",
+              "title": "万有引力与天体运动",
+              "sort_order": 5,
+              "config": {
+                "display_code": "05"
+              },
+              "kp_id_prefixes": [
+                "v2c7"
+              ],
+              "label_rules": [
+                {
+                  "label_type": "gaokao_topic",
+                  "label_id": "05",
+                  "action": "include"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gaokao_block_02",
+          "code": "block_02",
+          "node_type": "block",
+          "title": "二、能量与动量",
+          "sort_order": 2,
+          "children": [
+            {
+              "id": "gaokao_topic_06",
+              "code": "topic_06",
+              "node_type": "topic",
+              "title": "功、机械能与功能关系",
+              "sort_order": 1,
+              "config": {
+                "display_code": "06"
+              },
+              "kp_id_prefixes": [
+                "v2c8"
+              ],
+              "label_rules": [
+                {
+                  "label_type": "gaokao_topic",
+                  "label_id": "06",
+                  "action": "include"
+                }
+              ]
+            },
+            {
+              "id": "gaokao_topic_07",
+              "code": "topic_07",
+              "node_type": "topic",
+              "title": "动量、碰撞与全过程问题",
+              "sort_order": 2,
+              "config": {
+                "display_code": "07"
+              },
+              "kp_id_prefixes": [
+                "x1c1"
+              ],
+              "label_rules": [
+                {
+                  "label_type": "gaokao_topic",
+                  "label_id": "07",
+                  "action": "include"
+                }
+              ]
+            },
+            {
+              "id": "gaokao_topic_08",
+              "code": "topic_08",
+              "node_type": "topic",
+              "title": "力学综合模型",
+              "sort_order": 3,
+              "config": {
+                "display_code": "08"
+              },
+              "kp_id_prefixes": [
+                "v1c4s5",
+                "v2c8s4",
+                "x1c1s5",
+                "x1c1s6"
+              ],
+              "supporting_kp_id_prefixes": [
+                "v1c1",
+                "v1c2",
+                "v1c3",
+                "v1c4",
+                "v2c5",
+                "v2c6",
+                "v2c7",
+                "v2c8",
+                "x1c1"
+              ],
+              "label_rules": [
+                {
+                  "label_type": "gaokao_topic",
+                  "label_id": "08",
+                  "action": "include"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gaokao_block_03",
+          "code": "block_03",
+          "node_type": "block",
+          "title": "三、电场与电路",
+          "sort_order": 3,
+          "children": [
+            {
+              "id": "gaokao_topic_09",
+              "code": "topic_09",
+              "node_type": "topic",
+              "title": "静电场及带电粒子运动",
+              "sort_order": 1,
+              "config": {
+                "display_code": "09"
+              },
+              "kp_id_prefixes": [
+                "v3c9",
+                "v3c10"
+              ],
+              "label_rules": [
+                {
+                  "label_type": "gaokao_topic",
+                  "label_id": "09",
+                  "action": "include"
+                }
+              ]
+            },
+            {
+              "id": "gaokao_topic_10",
+              "code": "topic_10",
+              "node_type": "topic",
+              "title": "恒定电流与动态电路",
+              "sort_order": 2,
+              "config": {
+                "display_code": "10"
+              },
+              "kp_id_prefixes": [
+                "v3c11",
+                "v3c12"
+              ],
+              "label_rules": [
+                {
+                  "label_type": "gaokao_topic",
+                  "label_id": "10",
+                  "action": "include"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gaokao_block_04",
+          "code": "block_04",
+          "node_type": "block",
+          "title": "四、磁场与电磁感应",
+          "sort_order": 4,
+          "children": [
+            {
+              "id": "gaokao_topic_11",
+              "code": "topic_11",
+              "node_type": "topic",
+              "title": "磁场及带电粒子运动",
+              "sort_order": 1,
+              "config": {
+                "display_code": "11"
+              },
+              "kp_id_prefixes": [
+                "v3c13s1",
+                "v3c13s2",
+                "x2c1"
+              ],
+              "label_rules": [
+                {
+                  "label_type": "gaokao_topic",
+                  "label_id": "11",
+                  "action": "include"
+                }
+              ]
+            },
+            {
+              "id": "gaokao_topic_12",
+              "code": "topic_12",
+              "node_type": "topic",
+              "title": "电磁感应与电磁综合",
+              "sort_order": 2,
+              "config": {
+                "display_code": "12"
+              },
+              "kp_id_prefixes": [
+                "v3c13s3",
+                "x2c2"
+              ],
+              "label_rules": [
+                {
+                  "label_type": "gaokao_topic",
+                  "label_id": "12",
+                  "action": "include"
+                }
+              ]
+            },
+            {
+              "id": "gaokao_topic_13",
+              "code": "topic_13",
+              "node_type": "topic",
+              "title": "交变电流、远距离输电与电磁技术",
+              "sort_order": 3,
+              "config": {
+                "display_code": "13"
+              },
+              "kp_id_prefixes": [
+                "v3c13s4",
+                "x2c3",
+                "x2c4",
+                "x2c5"
+              ],
+              "label_rules": [
+                {
+                  "label_type": "gaokao_topic",
+                  "label_id": "13",
+                  "action": "include"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gaokao_block_05",
+          "code": "block_05",
+          "node_type": "block",
+          "title": "五、物理实验与科学探究",
+          "sort_order": 5,
+          "children": [
+            {
+              "id": "gaokao_topic_14",
+              "code": "topic_14",
+              "node_type": "topic",
+              "title": "力学实验",
+              "sort_order": 1,
+              "config": {
+                "display_code": "14"
+              },
+              "kp_id_prefixes": [
+                "v2c5s3",
+                "v2c8s5",
+                "x1c1s4"
+              ],
+              "kp_ids": [
+                "v1c2s1k02",
+                "v1c4s2k01",
+                "x1c2s5k04"
+              ],
+              "label_rules": [
+                {
+                  "label_type": "gaokao_topic",
+                  "label_id": "14",
+                  "action": "include"
+                }
+              ]
+            },
+            {
+              "id": "gaokao_topic_15",
+              "code": "topic_15",
+              "node_type": "topic",
+              "title": "电学实验",
+              "sort_order": 2,
+              "config": {
+                "display_code": "15"
+              },
+              "kp_id_prefixes": [
+                "v3c11s3",
+                "v3c11s5",
+                "v3c12s3"
+              ],
+              "label_rules": [
+                {
+                  "label_type": "gaokao_topic",
+                  "label_id": "15",
+                  "action": "include"
+                }
+              ]
+            },
+            {
+              "id": "gaokao_topic_16",
+              "code": "topic_16",
+              "node_type": "topic",
+              "title": "创新实验、图像与数据处理",
+              "sort_order": 3,
+              "config": {
+                "display_code": "16"
+              },
+              "kp_ids": [
+                "v1c1s2k04",
+                "v1c1s4k02",
+                "v1c2s1k02",
+                "v1c2s3k03",
+                "v1c2s3k04",
+                "v1c4s5k06",
+                "v2c5s3k02",
+                "v2c8s5k03",
+                "v2c8s5k05",
+                "v3c11s3k06",
+                "v3c12s3k02",
+                "v3c12s3k03",
+                "v3c12s3k05",
+                "x1c2s1k04",
+                "x1c3s2k04",
+                "x1c3s2k05",
+                "x2c2s2k06",
+                "x2c3s2k07",
+                "x2c5s3k04",
+                "x3c2s2k03"
+              ],
+              "label_rules": [
+                {
+                  "label_type": "gaokao_topic",
+                  "label_id": "16",
+                  "action": "include"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gaokao_block_06",
+          "code": "block_06",
+          "node_type": "block",
+          "title": "六、振动、波、热与近代物理",
+          "sort_order": 6,
+          "children": [
+            {
+              "id": "gaokao_topic_17",
+              "code": "topic_17",
+              "node_type": "topic",
+              "title": "机械振动、机械波与光学",
+              "sort_order": 1,
+              "config": {
+                "display_code": "17"
+              },
+              "kp_id_prefixes": [
+                "x1c2",
+                "x1c3",
+                "x1c4"
+              ],
+              "label_rules": [
+                {
+                  "label_type": "gaokao_topic",
+                  "label_id": "17",
+                  "action": "include"
+                }
+              ]
+            },
+            {
+              "id": "gaokao_topic_18",
+              "code": "topic_18",
+              "node_type": "topic",
+              "title": "热学与气体状态变化",
+              "sort_order": 2,
+              "config": {
+                "display_code": "18"
+              },
+              "kp_id_prefixes": [
+                "x3c1",
+                "x3c2",
+                "x3c3"
+              ],
+              "label_rules": [
+                {
+                  "label_type": "gaokao_topic",
+                  "label_id": "18",
+                  "action": "include"
+                }
+              ]
+            },
+            {
+              "id": "gaokao_topic_19",
+              "code": "topic_19",
+              "node_type": "topic",
+              "title": "原子结构、原子核与波粒二象性",
+              "sort_order": 3,
+              "config": {
+                "display_code": "19"
+              },
+              "kp_id_prefixes": [
+                "v3c13s5",
+                "x3c4",
+                "x3c5"
+              ],
+              "label_rules": [
+                {
+                  "label_type": "gaokao_topic",
+                  "label_id": "19",
+                  "action": "include"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

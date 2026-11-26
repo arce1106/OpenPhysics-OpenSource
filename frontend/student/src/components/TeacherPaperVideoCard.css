@@ -1,0 +1,63 @@
+.teacher-paper-video-card {
+  margin-top: 16px;
+  padding: 20px;
+  border: 1px solid #dce3ed;
+  border-radius: 16px;
+  background: #f7f8fc;
+}
+
+.teacher-paper-video-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  display: flex;
+  padding: 12px;
+  background: #000a;
+}
+.teacher-paper-video-dialog {
+  box-sizing: border-box;
+  width: min(1180px, 96vw);
+  max-height: 94vh;
+  max-height: 94dvh;
+  overflow-y: auto;
+  background: white;
+  margin: auto;
+  padding: 18px;
+  border: 0;
+  border-radius: 16px;
+  color: #263746;
+}
+.teacher-paper-video-dialog .teacher-paper-video-heading p { margin-top: 8px; }
+
+.teacher-paper-video-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.teacher-paper-video-heading strong { color: #526aa0; }
+.teacher-paper-video-heading h3 { margin: 8px 0; font-size: 18px; }
+.teacher-paper-video-heading p { margin: 0; color: #64748b; font-size: 14px; }
+.teacher-paper-video-heading .train-route-primary-button { flex-shrink: 0; text-decoration: none; }
+.teacher-paper-video-player { margin-top: 18px; }
+.teacher-paper-video-player video {
+  display: block;
+  width: 100%;
+  max-height: 75vh;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+  background: #000;
+  border-radius: 10px;
+}
+.teacher-paper-video-player video:fullscreen { max-height: none; border-radius: 0; }
+.teacher-paper-video-error { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 10px; }
+
+@media (max-width: 640px) {
+  .teacher-paper-video-card { padding: 14px; }
+  .teacher-paper-video-heading { flex-direction: column; align-items: stretch; gap: 14px; }
+  .teacher-paper-video-heading .train-route-primary-button { text-align: center; }
+}
+
+.teacher-paper-grading-status { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; padding: 16px; }
+.lesson-video-locked { display: inline-block; color: #6b7280; font-size: 13px; margin: 8px 0; }

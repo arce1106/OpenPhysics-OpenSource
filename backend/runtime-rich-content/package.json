@@ -1,0 +1,13 @@
+{
+  "name": "openphysics-rich-content-runtime",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "render-rich-content": "NODE_PATH=./node_modules tsx ../shared/math/render-rich-content-cli.ts"
+  },
+  "dependencies": {
+    "katex": "0.18.2",
+    "tsx": "4.23.0"
+  }
+}

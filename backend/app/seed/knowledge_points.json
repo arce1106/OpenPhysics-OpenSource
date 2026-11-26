@@ -1,0 +1,5168 @@
+[
+  {
+    "id": "v1c1s1k01",
+    "name": "质点模型",
+    "chapter": "第一章 运动的描述",
+    "section": "1.1 质点 参考系",
+    "volume": "必修 第一册",
+    "description": "物体的大小和形状对研究问题影响可忽略时，可将其简化为有质量的点。",
+    "difficulty": 1.0
+  },
+  {
+    "id": "v1c1s1k02",
+    "name": "参考系",
+    "chapter": "第一章 运动的描述",
+    "section": "1.1 质点 参考系",
+    "volume": "必修 第一册",
+    "description": "描述位置变化前要选定参考系。同一物体相对于不同参考系可以有不同运动状态。",
+    "difficulty": 1.0
+  },
+  {
+    "id": "v1c1s1k03",
+    "name": "坐标系",
+    "chapter": "第一章 运动的描述",
+    "section": "1.1 质点 参考系",
+    "volume": "必修 第一册",
+    "description": "",
+    "difficulty": 1.0
+  },
+  {
+    "id": "v1c1s2k01",
+    "name": "时刻与时间间隔",
+    "chapter": "第一章 运动的描述",
+    "section": "1.2 时间 位移",
+    "volume": "必修 第一册",
+    "description": "时刻是时间轴上的位置，时间间隔是两个时刻之差。",
+    "difficulty": 1.0
+  },
+  {
+    "id": "v1c1s2k02",
+    "name": "路程与位移",
+    "chapter": "第一章 运动的描述",
+    "section": "1.2 时间 位移",
+    "volume": "必修 第一册",
+    "description": "路程是轨迹长度；位移从初位置指向末位置，其大小不超过对应路程。",
+    "difficulty": 1.0
+  },
+  {
+    "id": "v1c1s2k03",
+    "name": "矢量与标量",
+    "chapter": "第一章 运动的描述",
+    "section": "1.2 时间 位移",
+    "volume": "必修 第一册",
+    "description": "",
+    "difficulty": 1.5
+  },
+  {
+    "id": "v1c1s2k04",
+    "name": "x-t图像（基础）",
+    "chapter": "第一章 运动的描述",
+    "section": "1.2 时间 位移",
+    "volume": "必修 第一册",
+    "description": "",
+    "difficulty": 2.0
+  },
+  {
+    "id": "v1c1s3k01",
+    "name": "速度",
+    "chapter": "第一章 运动的描述",
+    "section": "1.3 位置变化快慢的描述——速度",
+    "volume": "必修 第一册",
+    "description": "直线运动的平均速度等于位移除以对应时间间隔，正负表示坐标轴下的方向。",
+    "difficulty": 1.0
+  },
+  {
+    "id": "v1c1s3k02",
+    "name": "平均速度与瞬时速度",
+    "chapter": "第一章 运动的描述",
+    "section": "1.3 位置变化快慢的描述——速度",
+    "volume": "必修 第一册",
+    "description": "平均速度描述一段过程；瞬时速度描述某一时刻。平均速率用路程除以时间间隔。",
+    "difficulty": 1.0
+  },
+  {
+    "id": "v1c1s3k03",
+    "name": "速率与速度的区别",
+    "chapter": "第一章 运动的描述",
+    "section": "1.3 位置变化快慢的描述——速度",
+    "volume": "必修 第一册",
+    "description": "",
+    "difficulty": 2.0
+  },
+  {
+    "id": "v1c1s3k04",
+    "name": "打点计时器",
+    "chapter": "第一章 运动的描述",
+    "section": "1.3 位置变化快慢的描述——速度",
+    "volume": "必修 第一册",
+    "description": "",
+    "difficulty": 2.5
+  },
+  {
+    "id": "v1c1s4k01",
+    "name": "加速度",
+    "chapter": "第一章 运动的描述",
+    "section": "1.4 速度变化快慢的描述——加速度",
+    "volume": "必修 第一册",
+    "description": "平均加速度等于速度变化量除以对应时间间隔，单位是 m/s²。",
+    "difficulty": 1.0
+  },
+  {
+    "id": "v1c1s4k02",
+    "name": "加速度与速度方向",
+    "chapter": "第一章 运动的描述",
+    "section": "1.4 速度变化快慢的描述——加速度",
+    "volume": "必修 第一册",
+    "description": "速度与加速度同向时速率增大，反向时速率减小；加速度正负由坐标轴选择决定。",
+    "difficulty": 1.0
+  },
+  {
+    "id": "v1c2s1k01",
+    "name": "匀速直线运动",
+    "chapter": "第二章 匀变速直线运动的研究",
+    "section": "2.1 实验：探究小车速度随时间变化的规律",
+    "volume": "必修 第一册",
+    "description": "",
+    "difficulty": 1.5
+  },
+  {
+    "id": "v1c2s1k02",
+    "name": "纸带数据处理",
+    "chapter": "第二章 匀变速直线运动的研究",
+    "section": "2.1 实验：探究小车速度随时间变化的规律",
+    "volume": "必修 第一册",
+    "description": "",
+    "difficulty": 2.5
+  },
+  {
+    "id": "v1c2s2k01",
+    "name": "速度与时间的关系",
+    "chapter": "第二章 匀变速直线运动的研究",
+    "section": "2.2 匀变速直线运动的速度与时间的关系",
+    "volume": "必修 第一册",
+    "description": "",
+    "difficulty": 2.0
+  },
+  {
+    "id": "v1c2s3k01",
+    "name": "位移与时间的关系",
+    "chapter": "第二章 匀变速直线运动的研究",
+    "section": "2.3 匀变速直线运动的位移与时间的关系",
+    "volume": "必修 第一册",
+    "description": "",
+    "difficulty": 2.5
+  },
+  {
+    "id": "v1c2s3k02",
+    "name": "速度与位移的关系",
+    "chapter": "第二章 匀变速直线运动的研究",
+    "section": "2.3 匀变速直线运动的位移与时间的关系",
+    "volume": "必修 第一册",
+    "description": "",
+    "difficulty": 2.5
+  },
+  {
+    "id": "v1c2s3k03",
+    "name": "x-t图像",
+    "chapter": "第二章 匀变速直线运动的研究",
+    "section": "2.3 匀变速直线运动的位移与时间的关系",
+    "volume": "必修 第一册",
+    "description": "",
+    "difficulty": 2.5
+  },
+  {
+    "id": "v1c2s3k04",
+    "name": "v-t图像分析",
+    "chapter": "第二章 匀变速直线运动的研究",
+    "section": "2.3 匀变速直线运动的位移与时间的关系",
+    "volume": "必修 第一册",
+    "description": "",
+    "difficulty": 3.0
+  },
+  {
+    "id": "v1c2s3k05",
+    "name": "匀变速直线运动平均速度",
+    "chapter": "第二章 匀变速直线运动的研究",
+    "section": "2.3 匀变速直线运动的位移与时间的关系",
+    "volume": "必修 第一册",
+    "description": "",
+    "difficulty": 2.0
+  },
+  {
+    "id": "v1c2s3k06",
+    "name": "匀变速直线运动比例规律",
+    "chapter": "第二章 匀变速直线运动的研究",
+    "section": "2.3 匀变速直线运动的位移与时间的关系",
+    "volume": "必修 第一册",
+    "description": "",
+    "difficulty": 3.0
+  },
+  {
+    "id": "v1c2s3k07",
+    "name": "追及与相遇问题",
+    "chapter": "第二章 匀变速直线运动的研究",
+    "section": "2.3 匀变速直线运动的位移与时间的关系",
+    "volume": "必修 第一册",
+    "description": "",
+    "difficulty": 3.5
+  },
+  {
+    "id": "v1c2s4k01",
+    "name": "自由落体运动",
+    "chapter": "第二章 匀变速直线运动的研究",
+    "section": "2.4 自由落体运动",
+    "volume": "必修 第一册",
+    "description": "",
+    "difficulty": 2.5
+  },
+  {
+    "id": "v1c2s4k02",
+    "name": "竖直上抛运动",
+    "chapter": "第二章 匀变速直线运动的研究",
+    "section": "2.4 自由落体运动",
+    "volume": "必修 第一册",
+    "description": "",
+    "difficulty": 3.0
+  },
+  {
+    "id": "v1c3s1k01",
+    "name": "力的概念与图示",
+    "chapter": "第三章 相互作用——力",
+    "section": "3.1 重力与弹力",
+    "volume": "必修 第一册",
+    "description": "",
+    "difficulty": 1.5
+  },
+  {
+    "id": "v1c3s1k02",
+    "name": "重力",
+    "chapter": "第三章 相互作用——力",
+    "section": "3.1 重力与弹力",
+    "volume": "必修 第一册",
+    "description": "",
+    "difficulty": 1.5
+  },
+  {
+    "id": "v1c3s1k03",
+    "name": "弹力",
+    "chapter": "第三章 相互作用——力",
+    "section": "3.1 重力与弹力",
+    "volume": "必修 第一册",
+    "description": "",
+    "difficulty": 2.0
+  },
+  {
+    "id": "v1c3s1k04",
+    "name": "胡克定律",
+    "chapter": "第三章 相互作用——力",
+    "section": "3.1 重力与弹力",
+    "volume": "必修 第一册",
+    "description": "",
+    "difficulty": 2.0
+  },
+  {
+    "id": "v1c3s1k05",
+    "name": "弹力方向判断",
+    "chapter": "第三章 相互作用——力",
+    "section": "3.1 重力与弹力",
+    "volume": "必修 第一册",
+    "description": "",
+    "difficulty": 2.5
+  },
+  {
+    "id": "v1c3s2k01",
+    "name": "静摩擦力",
+    "chapter": "第三章 相互作用——力",
+    "section": "3.2 摩擦力",
+    "volume": "必修 第一册",
+    "description": "",
+    "difficulty": 2.5
+  },
+  {
+    "id": "v1c3s2k02",
+    "name": "滑动摩擦力",
+    "chapter": "第三章 相互作用——力",
+    "section": "3.2 摩擦力",
+    "volume": "必修 第一册",
+    "description": "",
+    "difficulty": 2.5
+  },
+  {
+    "id": "v1c3s2k03",
+    "name": "静摩擦与滑动摩擦的比较",
+    "chapter": "第三章 相互作用——力",
+    "section": "3.2 摩擦力",
+    "volume": "必修 第一册",
+    "description": "",
+    "difficulty": 3.0
+  },
+  {
+    "id": "v1c3s2k04",
+    "name": "摩擦力方向判断",
+    "chapter": "第三章 相互作用——力",
+    "section": "3.2 摩擦力",
+    "volume": "必修 第一册",
+    "description": "",
+    "difficulty": 3.0
+  },
+  {
+    "id": "v1c3s3k01",
+    "name": "牛顿第三定律",
+    "chapter": "第三章 相互作用——力",
+    "section": "3.3 牛顿第三定律",
+    "volume": "必修 第一册",
+    "description": "",
+    "difficulty": 2.5
+  },
+  {
+    "id": "v1c3s3k02",
+    "name": "相互作用力与平衡力的区别",
+    "chapter": "第三章 相互作用——力",
+    "section": "3.3 牛顿第三定律",
+    "volume": "必修 第一册",
+    "description": "",
+    "difficulty": 3.0
+  },
+  {
+    "id": "v1c3s4k01",
+    "name": "力的合成",
+    "chapter": "第三章 相互作用——力",
+    "section": "3.4 力的合成与分解",
+    "volume": "必修 第一册",
+    "description": "",
+    "difficulty": 2.5
+  },
+  {
+    "id": "v1c3s4k02",
+    "name": "力的分解",
+    "chapter": "第三章 相互作用——力",
+    "section": "3.4 力的合成与分解",
+    "volume": "必修 第一册",
+    "description": "",
+    "difficulty": 2.5
+  },
+  {
+    "id": "v1c3s5k01",
+    "name": "共点力平衡",
+    "chapter": "第三章 相互作用——力",
+    "section": "3.5 共点力的平衡",
+    "volume": "必修 第一册",
+    "description": "",
+    "difficulty": 3.0
+  },
+  {
+    "id": "v1c3s5k02",
+    "name": "受力分析",
+    "chapter": "第三章 相互作用——力",
+    "section": "3.5 共点力的平衡",
+    "volume": "必修 第一册",
+    "description": "",
+    "difficulty": 3.0
+  },
+  {
+    "id": "v1c3s5k03",
+    "name": "整体法与隔离法",
+    "chapter": "第三章 相互作用——力",
+    "section": "3.5 共点力的平衡",
+    "volume": "必修 第一册",
+    "description": "",
+    "difficulty": 3.0
+  },
+  {
+    "id": "v1c3s5k04",
+    "name": "动态平衡",
+    "chapter": "第三章 相互作用——力",
+    "section": "3.5 共点力的平衡",
+    "volume": "必修 第一册",
+    "description": "",
+    "difficulty": 3.5
+  },
+  {
+    "id": "v1c4s1k01",
+    "name": "牛顿第一定律",
+    "chapter": "第四章 运动和力的关系",
+    "section": "4.1 牛顿第一定律",
+    "volume": "必修 第一册",
+    "description": "",
+    "difficulty": 2.0
+  },
+  {
+    "id": "v1c4s2k01",
+    "name": "实验：探究加速度与力、质量的关系",
+    "chapter": "第四章 运动和力的关系",
+    "section": "4.2 实验：探究加速度与力、质量的关系",
+    "volume": "必修 第一册",
+    "description": "",
+    "difficulty": 3.0
+  },
+  {
+    "id": "v1c4s3k01",
+    "name": "牛顿第二定律",
+    "chapter": "第四章 运动和力的关系",
+    "section": "4.3 牛顿第二定律",
+    "volume": "必修 第一册",
+    "description": "",
+    "difficulty": 3.0
+  },
+  {
+    "id": "v1c4s3k02",
+    "name": "绳与弹簧的瞬时性",
+    "chapter": "第四章 运动和力的关系",
+    "section": "4.3 牛顿第二定律",
+    "volume": "必修 第一册",
+    "description": "",
+    "difficulty": 3.5
+  },
+  {
+    "id": "v1c4s4k01",
+    "name": "力学单位制",
+    "chapter": "第四章 运动和力的关系",
+    "section": "4.4 力学单位制",
+    "volume": "必修 第一册",
+    "description": "",
+    "difficulty": 1.5
+  },
+  {
+    "id": "v1c4s5k01",
+    "name": "牛顿运动定律的应用",
+    "chapter": "第四章 运动和力的关系",
+    "section": "4.5 牛顿运动定律的应用",
+    "volume": "必修 第一册",
+    "description": "",
+    "difficulty": 3.5
+  },
+  {
+    "id": "v1c4s5k02",
+    "name": "斜面问题",
+    "chapter": "第四章 运动和力的关系",
+    "section": "4.5 牛顿运动定律的应用",
+    "volume": "必修 第一册",
+    "description": "",
+    "difficulty": 3.5
+  },
+  {
+    "id": "v1c4s5k03",
+    "name": "连接体问题",
+    "chapter": "第四章 运动和力的关系",
+    "section": "4.5 牛顿运动定律的应用",
+    "volume": "必修 第一册",
+    "description": "",
+    "difficulty": 4.0
+  },
+  {
+    "id": "v1c4s5k04",
+    "name": "木板滑块模型",
+    "chapter": "第四章 运动和力的关系",
+    "section": "4.5 牛顿运动定律的应用",
+    "volume": "必修 第一册",
+    "description": "",
+    "difficulty": 4.5
+  },
+  {
+    "id": "v1c4s5k05",
+    "name": "传送带模型",
+    "chapter": "第四章 运动和力的关系",
+    "section": "4.5 牛顿运动定律的应用",
+    "volume": "必修 第一册",
+    "description": "",
+    "difficulty": 4.5
+  },
+  {
+    "id": "v1c4s5k06",
+    "name": "a-t图像与F-t图像",
+    "chapter": "第四章 运动和力的关系",
+    "section": "4.5 牛顿运动定律的应用",
+    "volume": "必修 第一册",
+    "description": "",
+    "difficulty": 4.0
+  },
+  {
+    "id": "v1c4s5k07",
+    "name": "临界条件分析",
+    "chapter": "第四章 运动和力的关系",
+    "section": "4.5 牛顿运动定律的应用",
+    "volume": "必修 第一册",
+    "description": "",
+    "difficulty": 4.5
+  },
+  {
+    "id": "v1c4s6k01",
+    "name": "超重与失重",
+    "chapter": "第四章 运动和力的关系",
+    "section": "4.6 超重和失重",
+    "volume": "必修 第一册",
+    "description": "",
+    "difficulty": 3.0
+  },
+  {
+    "id": "v2c5s1k01",
+    "name": "速度方向沿切线",
+    "chapter": "第五章 抛体运动",
+    "section": "5.1 曲线运动",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.4
+  },
+  {
+    "id": "v2c5s1k02",
+    "name": "曲线运动条件(合力与速度不共线)",
+    "chapter": "第五章 抛体运动",
+    "section": "5.1 曲线运动",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.4
+  },
+  {
+    "id": "v2c5s1k03",
+    "name": "必为变速运动",
+    "chapter": "第五章 抛体运动",
+    "section": "5.1 曲线运动",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.4
+  },
+  {
+    "id": "v2c5s1k04",
+    "name": "合力指向轨迹凹侧",
+    "chapter": "第五章 抛体运动",
+    "section": "5.1 曲线运动",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.4
+  },
+  {
+    "id": "v2c5s2k01",
+    "name": "合运动与分运动概念",
+    "chapter": "第五章 抛体运动",
+    "section": "5.2 运动的合成与分解",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.4
+  },
+  {
+    "id": "v2c5s2k02",
+    "name": "速度矢量的合成分解",
+    "chapter": "第五章 抛体运动",
+    "section": "5.2 运动的合成与分解",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.4
+  },
+  {
+    "id": "v2c5s2k03",
+    "name": "运动独立性原理",
+    "chapter": "第五章 抛体运动",
+    "section": "5.2 运动的合成与分解",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.4
+  },
+  {
+    "id": "v2c5s2k04",
+    "name": "小船过河模型",
+    "chapter": "第五章 抛体运动",
+    "section": "5.2 运动的合成与分解",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.4
+  },
+  {
+    "id": "v2c5s2k05",
+    "name": "绳端速度分解",
+    "chapter": "第五章 抛体运动",
+    "section": "5.2 运动的合成与分解",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.4
+  },
+  {
+    "id": "v2c5s3k01",
+    "name": "平抛实验思想",
+    "chapter": "第五章 抛体运动",
+    "section": "5.3 实验：探究平抛运动的特点",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.4
+  },
+  {
+    "id": "v2c5s3k02",
+    "name": "数据处理方法",
+    "chapter": "第五章 抛体运动",
+    "section": "5.3 实验：探究平抛运动的特点",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.4
+  },
+  {
+    "id": "v2c5s3k03",
+    "name": "平抛轨迹的分析",
+    "chapter": "第五章 抛体运动",
+    "section": "5.3 实验：探究平抛运动的特点",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.4
+  },
+  {
+    "id": "v2c5s3k04",
+    "name": "初速度测量",
+    "chapter": "第五章 抛体运动",
+    "section": "5.3 实验：探究平抛运动的特点",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.4
+  },
+  {
+    "id": "v2c5s4k01",
+    "name": "平抛运动分解",
+    "chapter": "第五章 抛体运动",
+    "section": "5.4 抛体运动的规律",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.4
+  },
+  {
+    "id": "v2c5s4k02",
+    "name": "平抛公式",
+    "chapter": "第五章 抛体运动",
+    "section": "5.4 抛体运动的规律",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.4
+  },
+  {
+    "id": "v2c5s4k03",
+    "name": "时间由高度决定",
+    "chapter": "第五章 抛体运动",
+    "section": "5.4 抛体运动的规律",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.4
+  },
+  {
+    "id": "v2c5s4k04",
+    "name": "水平位移=初速度×该时间",
+    "chapter": "第五章 抛体运动",
+    "section": "5.4 抛体运动的规律",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.4
+  },
+  {
+    "id": "v2c5s4k05",
+    "name": "平抛的矢量分析方法",
+    "chapter": "第五章 抛体运动",
+    "section": "5.4 抛体运动的规律",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.4
+  },
+  {
+    "id": "v2c5s4k06",
+    "name": "斜抛运动定性理解",
+    "chapter": "第五章 抛体运动",
+    "section": "5.4 抛体运动的规律",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.4
+  },
+  {
+    "id": "v2c6s1k01",
+    "name": "圆周运动概念",
+    "chapter": "第六章 圆周运动",
+    "section": "6.1 圆周运动",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.5
+  },
+  {
+    "id": "v2c6s1k02",
+    "name": "线速度描述",
+    "chapter": "第六章 圆周运动",
+    "section": "6.1 圆周运动",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.5
+  },
+  {
+    "id": "v2c6s1k03",
+    "name": "角速度描述",
+    "chapter": "第六章 圆周运动",
+    "section": "6.1 圆周运动",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.5
+  },
+  {
+    "id": "v2c6s1k04",
+    "name": "周期概念",
+    "chapter": "第六章 圆周运动",
+    "section": "6.1 圆周运动",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.5
+  },
+  {
+    "id": "v2c6s1k05",
+    "name": "v=ωr",
+    "chapter": "第六章 圆周运动",
+    "section": "6.1 圆周运动",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.5
+  },
+  {
+    "id": "v2c6s1k06",
+    "name": "同轴转动和皮带传动的分析",
+    "chapter": "第六章 圆周运动",
+    "section": "6.1 圆周运动",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.5
+  },
+  {
+    "id": "v2c6s2k01",
+    "name": "向心力概念",
+    "chapter": "第六章 圆周运动",
+    "section": "6.2 向心力",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.5
+  },
+  {
+    "id": "v2c6s2k02",
+    "name": "向心力公式",
+    "chapter": "第六章 圆周运动",
+    "section": "6.2 向心力",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.5
+  },
+  {
+    "id": "v2c6s2k03",
+    "name": "向心力来源分析",
+    "chapter": "第六章 圆周运动",
+    "section": "6.2 向心力",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.5
+  },
+  {
+    "id": "v2c6s2k04",
+    "name": "圆周受力分析",
+    "chapter": "第六章 圆周运动",
+    "section": "6.2 向心力",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.5
+  },
+  {
+    "id": "v2c6s2k05",
+    "name": "水平圆周运动",
+    "chapter": "第六章 圆周运动",
+    "section": "6.2 向心力",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.5
+  },
+  {
+    "id": "v2c6s3k01",
+    "name": "向心加速度(速度方向变化率)",
+    "chapter": "第六章 圆周运动",
+    "section": "6.3 向心加速度",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.5
+  },
+  {
+    "id": "v2c6s3k02",
+    "name": "向心加速度公式 a=v²/r=ω²r",
+    "chapter": "第六章 圆周运动",
+    "section": "6.3 向心加速度",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.5
+  },
+  {
+    "id": "v2c6s3k03",
+    "name": "F=ma联系向心力与向心加速度",
+    "chapter": "第六章 圆周运动",
+    "section": "6.3 向心加速度",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.5
+  },
+  {
+    "id": "v2c6s3k04",
+    "name": "变速圆周加速度分解",
+    "chapter": "第六章 圆周运动",
+    "section": "6.3 向心加速度",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.5
+  },
+  {
+    "id": "v2c6s4k01",
+    "name": "汽车过拱桥模型",
+    "chapter": "第六章 圆周运动",
+    "section": "6.4 生活中的圆周运动",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.5
+  },
+  {
+    "id": "v2c6s4k02",
+    "name": "竖直圆周临界",
+    "chapter": "第六章 圆周运动",
+    "section": "6.4 生活中的圆周运动",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.5
+  },
+  {
+    "id": "v2c6s4k03",
+    "name": "火车转弯与道路倾斜",
+    "chapter": "第六章 圆周运动",
+    "section": "6.4 生活中的圆周运动",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.5
+  },
+  {
+    "id": "v2c6s4k04",
+    "name": "离心现象(所需向心力>实际合力)",
+    "chapter": "第六章 圆周运动",
+    "section": "6.4 生活中的圆周运动",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.5
+  },
+  {
+    "id": "v2c6s4k05",
+    "name": "圆周运动临界",
+    "chapter": "第六章 圆周运动",
+    "section": "6.4 生活中的圆周运动",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.5
+  },
+  {
+    "id": "v2c7s1k01",
+    "name": "地心说与日心说",
+    "chapter": "第七章 万有引力与宇宙航行",
+    "section": "7.1 行星的运动",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.6
+  },
+  {
+    "id": "v2c7s1k02",
+    "name": "开普勒第一定律(椭圆轨道)",
+    "chapter": "第七章 万有引力与宇宙航行",
+    "section": "7.1 行星的运动",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.6
+  },
+  {
+    "id": "v2c7s1k03",
+    "name": "开普勒第二、第三定律",
+    "chapter": "第七章 万有引力与宇宙航行",
+    "section": "7.1 行星的运动",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.6
+  },
+  {
+    "id": "v2c7s1k04",
+    "name": "开普勒定律",
+    "chapter": "第七章 万有引力与宇宙航行",
+    "section": "7.1 行星的运动",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.6
+  },
+  {
+    "id": "v2c7s1k05",
+    "name": "高中圆轨道近似处理",
+    "chapter": "第七章 万有引力与宇宙航行",
+    "section": "7.1 行星的运动",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.6
+  },
+  {
+    "id": "v2c7s2k01",
+    "name": "万有引力定律",
+    "chapter": "第七章 万有引力与宇宙航行",
+    "section": "7.2 万有引力定律",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.6
+  },
+  {
+    "id": "v2c7s2k02",
+    "name": "引力常量G的测定(卡文迪什)",
+    "chapter": "第七章 万有引力与宇宙航行",
+    "section": "7.2 万有引力定律",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.6
+  },
+  {
+    "id": "v2c7s2k03",
+    "name": "地表重力≈万有引力",
+    "chapter": "第七章 万有引力与宇宙航行",
+    "section": "7.2 万有引力定律",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.6
+  },
+  {
+    "id": "v2c7s2k04",
+    "name": "重力加速度随高度变化",
+    "chapter": "第七章 万有引力与宇宙航行",
+    "section": "7.2 万有引力定律",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.6
+  },
+  {
+    "id": "v2c7s2k05",
+    "name": "万有引力=向心力",
+    "chapter": "第七章 万有引力与宇宙航行",
+    "section": "7.2 万有引力定律",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.6
+  },
+  {
+    "id": "v2c7s3k01",
+    "name": "天体质量计算",
+    "chapter": "第七章 万有引力与宇宙航行",
+    "section": "7.3 万有引力理论的成就",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.6
+  },
+  {
+    "id": "v2c7s3k02",
+    "name": "结合体积求天体密度",
+    "chapter": "第七章 万有引力与宇宙航行",
+    "section": "7.3 万有引力理论的成就",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.6
+  },
+  {
+    "id": "v2c7s3k03",
+    "name": "卫星运动规律",
+    "chapter": "第七章 万有引力与宇宙航行",
+    "section": "7.3 万有引力理论的成就",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.6
+  },
+  {
+    "id": "v2c7s3k04",
+    "name": "近地卫星概念",
+    "chapter": "第七章 万有引力与宇宙航行",
+    "section": "7.3 万有引力理论的成就",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.6
+  },
+  {
+    "id": "v2c7s3k05",
+    "name": "双星模型(共同质心)",
+    "chapter": "第七章 万有引力与宇宙航行",
+    "section": "7.3 万有引力理论的成就",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.6
+  },
+  {
+    "id": "v2c7s4k01",
+    "name": "第一宇宙速度",
+    "chapter": "第七章 万有引力与宇宙航行",
+    "section": "7.4 宇宙航行",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.6
+  },
+  {
+    "id": "v2c7s4k02",
+    "name": "第二、第三宇宙速度",
+    "chapter": "第七章 万有引力与宇宙航行",
+    "section": "7.4 宇宙航行",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.6
+  },
+  {
+    "id": "v2c7s4k03",
+    "name": "卫星轨道参数",
+    "chapter": "第七章 万有引力与宇宙航行",
+    "section": "7.4 宇宙航行",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.6
+  },
+  {
+    "id": "v2c7s4k04",
+    "name": "同步卫星(特定轨道)",
+    "chapter": "第七章 万有引力与宇宙航行",
+    "section": "7.4 宇宙航行",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.6
+  },
+  {
+    "id": "v2c7s4k05",
+    "name": "卫星变轨定性分析",
+    "chapter": "第七章 万有引力与宇宙航行",
+    "section": "7.4 宇宙航行",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.6
+  },
+  {
+    "id": "v2c7s5k01",
+    "name": "牛顿力学的适用范围",
+    "chapter": "第七章 万有引力与宇宙航行",
+    "section": "7.5 相对论时空观与牛顿力学的局限性",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.6
+  },
+  {
+    "id": "v2c7s5k02",
+    "name": "相对论时空观",
+    "chapter": "第七章 万有引力与宇宙航行",
+    "section": "7.5 相对论时空观与牛顿力学的局限性",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.6
+  },
+  {
+    "id": "v2c7s5k03",
+    "name": "相对论效应的定性认识",
+    "chapter": "第七章 万有引力与宇宙航行",
+    "section": "7.5 相对论时空观与牛顿力学的局限性",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.6
+  },
+  {
+    "id": "v2c8s1k01",
+    "name": "功的概念",
+    "chapter": "第八章 机械能守恒定律",
+    "section": "8.1 功与功率",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.7000000000000002
+  },
+  {
+    "id": "v2c8s1k02",
+    "name": "正负功",
+    "chapter": "第八章 机械能守恒定律",
+    "section": "8.1 功与功率",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.7000000000000002
+  },
+  {
+    "id": "v2c8s1k03",
+    "name": "恒力做功计算",
+    "chapter": "第八章 机械能守恒定律",
+    "section": "8.1 功与功率",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.7000000000000002
+  },
+  {
+    "id": "v2c8s1k04",
+    "name": "总功概念",
+    "chapter": "第八章 机械能守恒定律",
+    "section": "8.1 功与功率",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.7000000000000002
+  },
+  {
+    "id": "v2c8s1k05",
+    "name": "功率",
+    "chapter": "第八章 机械能守恒定律",
+    "section": "8.1 功与功率",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.7000000000000002
+  },
+  {
+    "id": "v2c8s1k06",
+    "name": "机车启动模型的动态分析",
+    "chapter": "第八章 机械能守恒定律",
+    "section": "8.1 功与功率",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.7000000000000002
+  },
+  {
+    "id": "v2c8s2k01",
+    "name": "重力做功特点",
+    "chapter": "第八章 机械能守恒定律",
+    "section": "8.2 重力势能",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.7000000000000002
+  },
+  {
+    "id": "v2c8s2k02",
+    "name": "重力势能",
+    "chapter": "第八章 机械能守恒定律",
+    "section": "8.2 重力势能",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.7000000000000002
+  },
+  {
+    "id": "v2c8s2k03",
+    "name": "WG=-ΔEp",
+    "chapter": "第八章 机械能守恒定律",
+    "section": "8.2 重力势能",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.7000000000000002
+  },
+  {
+    "id": "v2c8s2k04",
+    "name": "重力势能的相对性",
+    "chapter": "第八章 机械能守恒定律",
+    "section": "8.2 重力势能",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.7000000000000002
+  },
+  {
+    "id": "v2c8s3k01",
+    "name": "动能概念",
+    "chapter": "第八章 机械能守恒定律",
+    "section": "8.3 动能和动能定理",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.7000000000000002
+  },
+  {
+    "id": "v2c8s3k02",
+    "name": "动能定理",
+    "chapter": "第八章 机械能守恒定律",
+    "section": "8.3 动能和动能定理",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.7000000000000002
+  },
+  {
+    "id": "v2c8s3k03",
+    "name": "单过程应用",
+    "chapter": "第八章 机械能守恒定律",
+    "section": "8.3 动能和动能定理",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.7000000000000002
+  },
+  {
+    "id": "v2c8s3k04",
+    "name": "多过程分段应用",
+    "chapter": "第八章 机械能守恒定律",
+    "section": "8.3 动能和动能定理",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.7000000000000002
+  },
+  {
+    "id": "v2c8s3k05",
+    "name": "摩擦力做功与能量损失",
+    "chapter": "第八章 机械能守恒定律",
+    "section": "8.3 动能和动能定理",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.7000000000000002
+  },
+  {
+    "id": "v2c8s4k01",
+    "name": "机械能概念",
+    "chapter": "第八章 机械能守恒定律",
+    "section": "8.4 机械能守恒定律",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.7000000000000002
+  },
+  {
+    "id": "v2c8s4k02",
+    "name": "能量守恒思想",
+    "chapter": "第八章 机械能守恒定律",
+    "section": "8.4 机械能守恒定律",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.7000000000000002
+  },
+  {
+    "id": "v2c8s4k03",
+    "name": "机械能守恒",
+    "chapter": "第八章 机械能守恒定律",
+    "section": "8.4 机械能守恒定律",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.7000000000000002
+  },
+  {
+    "id": "v2c8s4k04",
+    "name": "单体模型应用",
+    "chapter": "第八章 机械能守恒定律",
+    "section": "8.4 机械能守恒定律",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.7000000000000002
+  },
+  {
+    "id": "v2c8s4k05",
+    "name": "系统模型(连接体/弹簧)",
+    "chapter": "第八章 机械能守恒定律",
+    "section": "8.4 机械能守恒定律",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.7000000000000002
+  },
+  {
+    "id": "v2c8s4k06",
+    "name": "不满足条件时的能量变化分析",
+    "chapter": "第八章 机械能守恒定律",
+    "section": "8.4 机械能守恒定律",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.7000000000000002
+  },
+  {
+    "id": "v2c8s4k07",
+    "name": "与动力学方法的比较与选择",
+    "chapter": "第八章 机械能守恒定律",
+    "section": "8.4 机械能守恒定律",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.7000000000000002
+  },
+  {
+    "id": "v2c8s5k01",
+    "name": "实验原理",
+    "chapter": "第八章 机械能守恒定律",
+    "section": "8.5 实验：验证机械能守恒定律",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.7000000000000002
+  },
+  {
+    "id": "v2c8s5k02",
+    "name": "纸带速度计算",
+    "chapter": "第八章 机械能守恒定律",
+    "section": "8.5 实验：验证机械能守恒定律",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.7000000000000002
+  },
+  {
+    "id": "v2c8s5k03",
+    "name": "数据处理",
+    "chapter": "第八章 机械能守恒定律",
+    "section": "8.5 实验：验证机械能守恒定律",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.7000000000000002
+  },
+  {
+    "id": "v2c8s5k04",
+    "name": "实验误差分析",
+    "chapter": "第八章 机械能守恒定律",
+    "section": "8.5 实验：验证机械能守恒定律",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.7000000000000002
+  },
+  {
+    "id": "v2c8s5k05",
+    "name": "v²-h图像法验证",
+    "chapter": "第八章 机械能守恒定律",
+    "section": "8.5 实验：验证机械能守恒定律",
+    "volume": "必修 第二册",
+    "description": "",
+    "difficulty": 1.7000000000000002
+  },
+  {
+    "id": "v3c10s1k01",
+    "name": "电场力做功",
+    "chapter": "第十章 静电场中的能量",
+    "section": "10.1 电势能和电势",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 1.9
+  },
+  {
+    "id": "v3c10s1k02",
+    "name": "电势能",
+    "chapter": "第十章 静电场中的能量",
+    "section": "10.1 电势能和电势",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 1.9
+  },
+  {
+    "id": "v3c10s1k03",
+    "name": "电势",
+    "chapter": "第十章 静电场中的能量",
+    "section": "10.1 电势能和电势",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 1.9
+  },
+  {
+    "id": "v3c10s1k04",
+    "name": "电势高低判断(沿电场线方向电势降低)",
+    "chapter": "第十章 静电场中的能量",
+    "section": "10.1 电势能和电势",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 1.9
+  },
+  {
+    "id": "v3c10s1k05",
+    "name": "电场力做功与电势能变化",
+    "chapter": "第十章 静电场中的能量",
+    "section": "10.1 电势能和电势",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 1.9
+  },
+  {
+    "id": "v3c10s2k01",
+    "name": "电势差",
+    "chapter": "第十章 静电场中的能量",
+    "section": "10.2 电势差",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 1.9
+  },
+  {
+    "id": "v3c10s2k02",
+    "name": "电场力做功与电势差 W=qU",
+    "chapter": "第十章 静电场中的能量",
+    "section": "10.2 电势差",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 1.9
+  },
+  {
+    "id": "v3c10s2k03",
+    "name": "电势差正负含义",
+    "chapter": "第十章 静电场中的能量",
+    "section": "10.2 电势差",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 1.9
+  },
+  {
+    "id": "v3c10s2k04",
+    "name": "等势面(电势相等的点构成的面)",
+    "chapter": "第十章 静电场中的能量",
+    "section": "10.2 电势差",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 1.9
+  },
+  {
+    "id": "v3c10s2k05",
+    "name": "电场线与等势面垂直，指向电势降低方向",
+    "chapter": "第十章 静电场中的能量",
+    "section": "10.2 电势差",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 1.9
+  },
+  {
+    "id": "v3c10s3k01",
+    "name": "U=Ed",
+    "chapter": "第十章 静电场中的能量",
+    "section": "10.3 电势差与电场强度的关系",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 1.9
+  },
+  {
+    "id": "v3c10s3k02",
+    "name": "电场强度反映电势变化快慢",
+    "chapter": "第十章 静电场中的能量",
+    "section": "10.3 电势差与电场强度的关系",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 1.9
+  },
+  {
+    "id": "v3c10s3k03",
+    "name": "d为沿电场方向的距离投影",
+    "chapter": "第十章 静电场中的能量",
+    "section": "10.3 电势差与电场强度的关系",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 1.9
+  },
+  {
+    "id": "v3c10s3k04",
+    "name": "电势随位置变化的图像",
+    "chapter": "第十章 静电场中的能量",
+    "section": "10.3 电势差与电场强度的关系",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 1.9
+  },
+  {
+    "id": "v3c10s4k01",
+    "name": "电容器概念",
+    "chapter": "第十章 静电场中的能量",
+    "section": "10.4 电容器的电容",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 1.9
+  },
+  {
+    "id": "v3c10s4k02",
+    "name": "电容定义",
+    "chapter": "第十章 静电场中的能量",
+    "section": "10.4 电容器的电容",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 1.9
+  },
+  {
+    "id": "v3c10s4k03",
+    "name": "平行板电容器",
+    "chapter": "第十章 静电场中的能量",
+    "section": "10.4 电容器的电容",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 1.9
+  },
+  {
+    "id": "v3c10s4k04",
+    "name": "电容器的动态分析",
+    "chapter": "第十章 静电场中的能量",
+    "section": "10.4 电容器的电容",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 1.9
+  },
+  {
+    "id": "v3c10s4k05",
+    "name": "电容器储能",
+    "chapter": "第十章 静电场中的能量",
+    "section": "10.4 电容器的电容",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 1.9
+  },
+  {
+    "id": "v3c10s5k01",
+    "name": "电场加速",
+    "chapter": "第十章 静电场中的能量",
+    "section": "10.5 带电粒子在电场中的运动",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 1.9
+  },
+  {
+    "id": "v3c10s5k02",
+    "name": "带电粒子在电场中的加速和偏转",
+    "chapter": "第十章 静电场中的能量",
+    "section": "10.5 带电粒子在电场中的运动",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 1.9
+  },
+  {
+    "id": "v3c10s5k03",
+    "name": "电场偏转",
+    "chapter": "第十章 静电场中的能量",
+    "section": "10.5 带电粒子在电场中的运动",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 1.9
+  },
+  {
+    "id": "v3c10s5k04",
+    "name": "示波管偏转模型",
+    "chapter": "第十章 静电场中的能量",
+    "section": "10.5 带电粒子在电场中的运动",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 1.9
+  },
+  {
+    "id": "v3c10s5k05",
+    "name": "电场运动中的能量与运动学联立",
+    "chapter": "第十章 静电场中的能量",
+    "section": "10.5 带电粒子在电场中的运动",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 1.9
+  },
+  {
+    "id": "v3c11s1k01",
+    "name": "电源",
+    "chapter": "第十一章 电路及其应用",
+    "section": "11.1 电源和电流",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.0
+  },
+  {
+    "id": "v3c11s1k02",
+    "name": "恒定电场(导线内电场驱动电荷)",
+    "chapter": "第十一章 电路及其应用",
+    "section": "11.1 电源和电流",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.0
+  },
+  {
+    "id": "v3c11s1k03",
+    "name": "电流",
+    "chapter": "第十一章 电路及其应用",
+    "section": "11.1 电源和电流",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.0
+  },
+  {
+    "id": "v3c11s1k04",
+    "name": "电流方向(正电荷定向移动方向)",
+    "chapter": "第十一章 电路及其应用",
+    "section": "11.1 电源和电流",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.0
+  },
+  {
+    "id": "v3c11s1k05",
+    "name": "电流的微观表达式",
+    "chapter": "第十一章 电路及其应用",
+    "section": "11.1 电源和电流",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.0
+  },
+  {
+    "id": "v3c11s2k01",
+    "name": "电阻",
+    "chapter": "第十一章 电路及其应用",
+    "section": "11.2 导体的电阻",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.0
+  },
+  {
+    "id": "v3c11s2k02",
+    "name": "欧姆定律",
+    "chapter": "第十一章 电路及其应用",
+    "section": "11.2 导体的电阻",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.0
+  },
+  {
+    "id": "v3c11s2k03",
+    "name": "伏安特性曲线(U-I图/I-U图)",
+    "chapter": "第十一章 电路及其应用",
+    "section": "11.2 导体的电阻",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.0
+  },
+  {
+    "id": "v3c11s2k04",
+    "name": "电阻定律",
+    "chapter": "第十一章 电路及其应用",
+    "section": "11.2 导体的电阻",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.0
+  },
+  {
+    "id": "v3c11s2k05",
+    "name": "电阻率(材料特性，随温度变化)",
+    "chapter": "第十一章 电路及其应用",
+    "section": "11.2 导体的电阻",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.0
+  },
+  {
+    "id": "v3c11s3k01",
+    "name": "伏安法测电阻",
+    "chapter": "第十一章 电路及其应用",
+    "section": "11.3 实验：导体电阻率的测量",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.0
+  },
+  {
+    "id": "v3c11s3k02",
+    "name": "电流表内接与外接(误差分析)",
+    "chapter": "第十一章 电路及其应用",
+    "section": "11.3 实验：导体电阻率的测量",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.0
+  },
+  {
+    "id": "v3c11s3k03",
+    "name": "滑动变阻器限流与分压接法",
+    "chapter": "第十一章 电路及其应用",
+    "section": "11.3 实验：导体电阻率的测量",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.0
+  },
+  {
+    "id": "v3c11s3k04",
+    "name": "螺旋测微器读数",
+    "chapter": "第十一章 电路及其应用",
+    "section": "11.3 实验：导体电阻率的测量",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.0
+  },
+  {
+    "id": "v3c11s3k05",
+    "name": "游标卡尺读数",
+    "chapter": "第十一章 电路及其应用",
+    "section": "11.3 实验：导体电阻率的测量",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.0
+  },
+  {
+    "id": "v3c11s3k06",
+    "name": "电阻率实验数据处理",
+    "chapter": "第十一章 电路及其应用",
+    "section": "11.3 实验：导体电阻率的测量",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.0
+  },
+  {
+    "id": "v3c11s4k01",
+    "name": "串联+并联",
+    "chapter": "第十一章 电路及其应用",
+    "section": "11.4 串联电路和并联电路",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.0
+  },
+  {
+    "id": "v3c11s4k02",
+    "name": "并联规律",
+    "chapter": "第十一章 电路及其应用",
+    "section": "11.4 串联电路和并联电路",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.0
+  },
+  {
+    "id": "v3c11s4k03",
+    "name": "电压分配和电流分配计算",
+    "chapter": "第十一章 电路及其应用",
+    "section": "11.4 串联电路和并联电路",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.0
+  },
+  {
+    "id": "v3c11s4k04",
+    "name": "混联电路等效化简",
+    "chapter": "第十一章 电路及其应用",
+    "section": "11.4 串联电路和并联电路",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.0
+  },
+  {
+    "id": "v3c11s4k05",
+    "name": "电表改装",
+    "chapter": "第十一章 电路及其应用",
+    "section": "11.4 串联电路和并联电路",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.0
+  },
+  {
+    "id": "v3c11s4k06",
+    "name": "电压表和电流表的电路结构",
+    "chapter": "第十一章 电路及其应用",
+    "section": "11.4 串联电路和并联电路",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.0
+  },
+  {
+    "id": "v3c11s5k01",
+    "name": "多用电表功能",
+    "chapter": "第十一章 电路及其应用",
+    "section": "11.5 实验：练习使用多用电表",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.0
+  },
+  {
+    "id": "v3c11s5k02",
+    "name": "测量电压和电流",
+    "chapter": "第十一章 电路及其应用",
+    "section": "11.5 实验：练习使用多用电表",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.0
+  },
+  {
+    "id": "v3c11s5k03",
+    "name": "欧姆表测电阻",
+    "chapter": "第十一章 电路及其应用",
+    "section": "11.5 实验：练习使用多用电表",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.0
+  },
+  {
+    "id": "v3c11s5k04",
+    "name": "欧姆表读数(不均匀刻度)",
+    "chapter": "第十一章 电路及其应用",
+    "section": "11.5 实验：练习使用多用电表",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.0
+  },
+  {
+    "id": "v3c11s5k05",
+    "name": "多用电表的使用步骤与安全",
+    "chapter": "第十一章 电路及其应用",
+    "section": "11.5 实验：练习使用多用电表",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.0
+  },
+  {
+    "id": "v3c12s1k01",
+    "name": "电功",
+    "chapter": "第十二章 电能 能量守恒定律",
+    "section": "12.1 电路中的能量转化",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.1
+  },
+  {
+    "id": "v3c12s1k02",
+    "name": "电功率 P=UI",
+    "chapter": "第十二章 电能 能量守恒定律",
+    "section": "12.1 电路中的能量转化",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.1
+  },
+  {
+    "id": "v3c12s1k03",
+    "name": "焦耳定律",
+    "chapter": "第十二章 电能 能量守恒定律",
+    "section": "12.1 电路中的能量转化",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.1
+  },
+  {
+    "id": "v3c12s1k04",
+    "name": "纯电阻电路(W=Q)",
+    "chapter": "第十二章 电能 能量守恒定律",
+    "section": "12.1 电路中的能量转化",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.1
+  },
+  {
+    "id": "v3c12s1k05",
+    "name": "非纯电阻电路(W>Q，如电动机)",
+    "chapter": "第十二章 电能 能量守恒定律",
+    "section": "12.1 电路中的能量转化",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.1
+  },
+  {
+    "id": "v3c12s1k06",
+    "name": "电路中的能量守恒",
+    "chapter": "第十二章 电能 能量守恒定律",
+    "section": "12.1 电路中的能量转化",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.1
+  },
+  {
+    "id": "v3c12s2k01",
+    "name": "电动势",
+    "chapter": "第十二章 电能 能量守恒定律",
+    "section": "12.2 闭合电路的欧姆定律",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.1
+  },
+  {
+    "id": "v3c12s2k02",
+    "name": "内阻(电源内部电阻)",
+    "chapter": "第十二章 电能 能量守恒定律",
+    "section": "12.2 闭合电路的欧姆定律",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.1
+  },
+  {
+    "id": "v3c12s2k03",
+    "name": "闭合电路能量关系",
+    "chapter": "第十二章 电能 能量守恒定律",
+    "section": "12.2 闭合电路的欧姆定律",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.1
+  },
+  {
+    "id": "v3c12s2k04",
+    "name": "路端电压与外电阻关系",
+    "chapter": "第十二章 电能 能量守恒定律",
+    "section": "12.2 闭合电路的欧姆定律",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.1
+  },
+  {
+    "id": "v3c12s2k05",
+    "name": "电源输出功率分析",
+    "chapter": "第十二章 电能 能量守恒定律",
+    "section": "12.2 闭合电路的欧姆定律",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.1
+  },
+  {
+    "id": "v3c12s2k06",
+    "name": "电源效率 η=P出/P总",
+    "chapter": "第十二章 电能 能量守恒定律",
+    "section": "12.2 闭合电路的欧姆定律",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.1
+  },
+  {
+    "id": "v3c12s2k07",
+    "name": "闭合电路的动态分析",
+    "chapter": "第十二章 电能 能量守恒定律",
+    "section": "12.2 闭合电路的欧姆定律",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.1
+  },
+  {
+    "id": "v3c12s3k01",
+    "name": "实验原理",
+    "chapter": "第十二章 电能 能量守恒定律",
+    "section": "12.3 实验：电池电动势和内阻的测量",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.1
+  },
+  {
+    "id": "v3c12s3k02",
+    "name": "U-I图像法",
+    "chapter": "第十二章 电能 能量守恒定律",
+    "section": "12.3 实验：电池电动势和内阻的测量",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.1
+  },
+  {
+    "id": "v3c12s3k03",
+    "name": "实验电路设计(内接/外接)",
+    "chapter": "第十二章 电能 能量守恒定律",
+    "section": "12.3 实验：电池电动势和内阻的测量",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.1
+  },
+  {
+    "id": "v3c12s3k04",
+    "name": "实验误差分析(系统误差/偶然误差)",
+    "chapter": "第十二章 电能 能量守恒定律",
+    "section": "12.3 实验：电池电动势和内阻的测量",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.1
+  },
+  {
+    "id": "v3c12s3k05",
+    "name": "电源测量实验的数据处理",
+    "chapter": "第十二章 电能 能量守恒定律",
+    "section": "12.3 实验：电池电动势和内阻的测量",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.1
+  },
+  {
+    "id": "v3c12s4k01",
+    "name": "能量守恒",
+    "chapter": "第十二章 电能 能量守恒定律",
+    "section": "12.4 能源与可持续发展",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.1
+  },
+  {
+    "id": "v3c12s4k02",
+    "name": "能量转化具有方向性(引出热力学第二定律)",
+    "chapter": "第十二章 电能 能量守恒定律",
+    "section": "12.4 能源与可持续发展",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.1
+  },
+  {
+    "id": "v3c12s4k03",
+    "name": "能源分类",
+    "chapter": "第十二章 电能 能量守恒定律",
+    "section": "12.4 能源与可持续发展",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.1
+  },
+  {
+    "id": "v3c12s4k04",
+    "name": "能源利用效率",
+    "chapter": "第十二章 电能 能量守恒定律",
+    "section": "12.4 能源与可持续发展",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.1
+  },
+  {
+    "id": "v3c12s4k05",
+    "name": "可持续发展",
+    "chapter": "第十二章 电能 能量守恒定律",
+    "section": "12.4 能源与可持续发展",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.1
+  },
+  {
+    "id": "v3c13s1k01",
+    "name": "磁场概念",
+    "chapter": "第十三章 电磁感应与电磁波初步",
+    "section": "13.1 磁场 磁感线",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.2
+  },
+  {
+    "id": "v3c13s1k02",
+    "name": "磁感线",
+    "chapter": "第十三章 电磁感应与电磁波初步",
+    "section": "13.1 磁场 磁感线",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.2
+  },
+  {
+    "id": "v3c13s1k03",
+    "name": "磁体磁场",
+    "chapter": "第十三章 电磁感应与电磁波初步",
+    "section": "13.1 磁场 磁感线",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.2
+  },
+  {
+    "id": "v3c13s1k04",
+    "name": "电流产生磁场",
+    "chapter": "第十三章 电磁感应与电磁波初步",
+    "section": "13.1 磁场 磁感线",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.2
+  },
+  {
+    "id": "v3c13s1k05",
+    "name": "安培定则",
+    "chapter": "第十三章 电磁感应与电磁波初步",
+    "section": "13.1 磁场 磁感线",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.2
+  },
+  {
+    "id": "v3c13s2k01",
+    "name": "磁感应强度",
+    "chapter": "第十三章 电磁感应与电磁波初步",
+    "section": "13.2 磁感应强度 磁通量",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.2
+  },
+  {
+    "id": "v3c13s2k02",
+    "name": "安培力 F=BILsinθ(磁场对电流的作用)",
+    "chapter": "第十三章 电磁感应与电磁波初步",
+    "section": "13.2 磁感应强度 磁通量",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.2
+  },
+  {
+    "id": "v3c13s2k03",
+    "name": "磁通量",
+    "chapter": "第十三章 电磁感应与电磁波初步",
+    "section": "13.2 磁感应强度 磁通量",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.2
+  },
+  {
+    "id": "v3c13s2k04",
+    "name": "磁通量变化",
+    "chapter": "第十三章 电磁感应与电磁波初步",
+    "section": "13.2 磁感应强度 磁通量",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.2
+  },
+  {
+    "id": "v3c13s2k05",
+    "name": "磁通量的计算",
+    "chapter": "第十三章 电磁感应与电磁波初步",
+    "section": "13.2 磁感应强度 磁通量",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.2
+  },
+  {
+    "id": "v3c13s3k01",
+    "name": "电磁感应",
+    "chapter": "第十三章 电磁感应与电磁波初步",
+    "section": "13.3 电磁感应现象及应用",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.2
+  },
+  {
+    "id": "v3c13s3k02",
+    "name": "感应电流条件",
+    "chapter": "第十三章 电磁感应与电磁波初步",
+    "section": "13.3 电磁感应现象及应用",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.2
+  },
+  {
+    "id": "v3c13s3k03",
+    "name": "感应电动势",
+    "chapter": "第十三章 电磁感应与电磁波初步",
+    "section": "13.3 电磁感应现象及应用",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.2
+  },
+  {
+    "id": "v3c13s3k04",
+    "name": "电磁感应中的能量转化",
+    "chapter": "第十三章 电磁感应与电磁波初步",
+    "section": "13.3 电磁感应现象及应用",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.2
+  },
+  {
+    "id": "v3c13s3k05",
+    "name": "电磁感应的应用",
+    "chapter": "第十三章 电磁感应与电磁波初步",
+    "section": "13.3 电磁感应现象及应用",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.2
+  },
+  {
+    "id": "v3c13s4k01",
+    "name": "变化的电场与磁场",
+    "chapter": "第十三章 电磁感应与电磁波初步",
+    "section": "13.4 电磁波的发现及应用",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.2
+  },
+  {
+    "id": "v3c13s4k02",
+    "name": "电磁波",
+    "chapter": "第十三章 电磁感应与电磁波初步",
+    "section": "13.4 电磁波的发现及应用",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.2
+  },
+  {
+    "id": "v3c13s4k03",
+    "name": "电磁波的传播",
+    "chapter": "第十三章 电磁感应与电磁波初步",
+    "section": "13.4 电磁波的发现及应用",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.2
+  },
+  {
+    "id": "v3c13s4k04",
+    "name": "电磁波谱初步",
+    "chapter": "第十三章 电磁感应与电磁波初步",
+    "section": "13.4 电磁波的发现及应用",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.2
+  },
+  {
+    "id": "v3c13s4k05",
+    "name": "电磁波的应用",
+    "chapter": "第十三章 电磁感应与电磁波初步",
+    "section": "13.4 电磁波的发现及应用",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.2
+  },
+  {
+    "id": "v3c13s5k01",
+    "name": "黑体辐射问题",
+    "chapter": "第十三章 电磁感应与电磁波初步",
+    "section": "13.5 能量量子化",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.2
+  },
+  {
+    "id": "v3c13s5k02",
+    "name": "能量量子化",
+    "chapter": "第十三章 电磁感应与电磁波初步",
+    "section": "13.5 能量量子化",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.2
+  },
+  {
+    "id": "v3c13s5k03",
+    "name": "能量子",
+    "chapter": "第十三章 电磁感应与电磁波初步",
+    "section": "13.5 能量量子化",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.2
+  },
+  {
+    "id": "v3c13s5k04",
+    "name": "光子概念初步",
+    "chapter": "第十三章 电磁感应与电磁波初步",
+    "section": "13.5 能量量子化",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.2
+  },
+  {
+    "id": "v3c13s5k05",
+    "name": "能量子的计算",
+    "chapter": "第十三章 电磁感应与电磁波初步",
+    "section": "13.5 能量量子化",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 2.2
+  },
+  {
+    "id": "v3c9s1k01",
+    "name": "电荷概念",
+    "chapter": "第九章 静电场及其应用",
+    "section": "9.1 电荷",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 1.8
+  },
+  {
+    "id": "v3c9s1k02",
+    "name": "起电方式",
+    "chapter": "第九章 静电场及其应用",
+    "section": "9.1 电荷",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 1.8
+  },
+  {
+    "id": "v3c9s1k03",
+    "name": "静电感应",
+    "chapter": "第九章 静电场及其应用",
+    "section": "9.1 电荷",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 1.8
+  },
+  {
+    "id": "v3c9s1k04",
+    "name": "电荷守恒",
+    "chapter": "第九章 静电场及其应用",
+    "section": "9.1 电荷",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 1.8
+  },
+  {
+    "id": "v3c9s1k05",
+    "name": "元电荷",
+    "chapter": "第九章 静电场及其应用",
+    "section": "9.1 电荷",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 1.8
+  },
+  {
+    "id": "v3c9s1k06",
+    "name": "验电器张角判断电荷",
+    "chapter": "第九章 静电场及其应用",
+    "section": "9.1 电荷",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 1.8
+  },
+  {
+    "id": "v3c9s2k01",
+    "name": "点电荷模型",
+    "chapter": "第九章 静电场及其应用",
+    "section": "9.2 库仑定律",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 1.8
+  },
+  {
+    "id": "v3c9s2k02",
+    "name": "库仑定律",
+    "chapter": "第九章 静电场及其应用",
+    "section": "9.2 库仑定律",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 1.8
+  },
+  {
+    "id": "v3c9s2k03",
+    "name": "库仑力方向判断(同斥异吸)",
+    "chapter": "第九章 静电场及其应用",
+    "section": "9.2 库仑定律",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 1.8
+  },
+  {
+    "id": "v3c9s2k04",
+    "name": "库仑力矢量合成",
+    "chapter": "第九章 静电场及其应用",
+    "section": "9.2 库仑定律",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 1.8
+  },
+  {
+    "id": "v3c9s2k05",
+    "name": "带电小球平衡问题",
+    "chapter": "第九章 静电场及其应用",
+    "section": "9.2 库仑定律",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 1.8
+  },
+  {
+    "id": "v3c9s3k01",
+    "name": "电场概念",
+    "chapter": "第九章 静电场及其应用",
+    "section": "9.3 电场 电场强度",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 1.8
+  },
+  {
+    "id": "v3c9s3k02",
+    "name": "试探电荷(微小电荷，不改变原电场)",
+    "chapter": "第九章 静电场及其应用",
+    "section": "9.3 电场 电场强度",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 1.8
+  },
+  {
+    "id": "v3c9s3k03",
+    "name": "电场强度",
+    "chapter": "第九章 静电场及其应用",
+    "section": "9.3 电场 电场强度",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 1.8
+  },
+  {
+    "id": "v3c9s3k04",
+    "name": "点电荷电场",
+    "chapter": "第九章 静电场及其应用",
+    "section": "9.3 电场 电场强度",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 1.8
+  },
+  {
+    "id": "v3c9s3k05",
+    "name": "多场源电场强度叠加(矢量)",
+    "chapter": "第九章 静电场及其应用",
+    "section": "9.3 电场 电场强度",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 1.8
+  },
+  {
+    "id": "v3c9s3k06",
+    "name": "电场线",
+    "chapter": "第九章 静电场及其应用",
+    "section": "9.3 电场 电场强度",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 1.8
+  },
+  {
+    "id": "v3c9s3k07",
+    "name": "匀强电场",
+    "chapter": "第九章 静电场及其应用",
+    "section": "9.3 电场 电场强度",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 1.8
+  },
+  {
+    "id": "v3c9s3k08",
+    "name": "电场力",
+    "chapter": "第九章 静电场及其应用",
+    "section": "9.3 电场 电场强度",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 1.8
+  },
+  {
+    "id": "v3c9s4k01",
+    "name": "静电平衡",
+    "chapter": "第九章 静电场及其应用",
+    "section": "9.4 静电的防止与利用",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 1.8
+  },
+  {
+    "id": "v3c9s4k02",
+    "name": "尖端放电(尖端处E强)",
+    "chapter": "第九章 静电场及其应用",
+    "section": "9.4 静电的防止与利用",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 1.8
+  },
+  {
+    "id": "v3c9s4k03",
+    "name": "静电屏蔽(导体壳屏蔽外电场)",
+    "chapter": "第九章 静电场及其应用",
+    "section": "9.4 静电的防止与利用",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 1.8
+  },
+  {
+    "id": "v3c9s4k04",
+    "name": "静电除尘",
+    "chapter": "第九章 静电场及其应用",
+    "section": "9.4 静电的防止与利用",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 1.8
+  },
+  {
+    "id": "v3c9s4k05",
+    "name": "静电应用与防护",
+    "chapter": "第九章 静电场及其应用",
+    "section": "9.4 静电的防止与利用",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 1.8
+  },
+  {
+    "id": "v3c9s4k06",
+    "name": "静电平衡导体三特性(内部E=0/净电荷在外表面/等势体)",
+    "chapter": "第九章 静电场及其应用",
+    "section": "9.4 静电的防止与利用",
+    "volume": "必修 第三册",
+    "description": "",
+    "difficulty": 1.8
+  },
+  {
+    "id": "x1c1s1k01",
+    "name": "动量概念",
+    "chapter": "第一章 动量守恒定律",
+    "section": "1.1 动量",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.3
+  },
+  {
+    "id": "x1c1s1k02",
+    "name": "动量变化量",
+    "chapter": "第一章 动量守恒定律",
+    "section": "1.1 动量",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.3
+  },
+  {
+    "id": "x1c1s1k03",
+    "name": "动量单位 kg·m/s",
+    "chapter": "第一章 动量守恒定律",
+    "section": "1.1 动量",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.3
+  },
+  {
+    "id": "x1c1s1k04",
+    "name": "动量正负号",
+    "chapter": "第一章 动量守恒定律",
+    "section": "1.1 动量",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.3
+  },
+  {
+    "id": "x1c1s2k01",
+    "name": "冲量概念",
+    "chapter": "第一章 动量守恒定律",
+    "section": "1.2 动量定理",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.3
+  },
+  {
+    "id": "x1c1s2k02",
+    "name": "动量定理",
+    "chapter": "第一章 动量守恒定律",
+    "section": "1.2 动量定理",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.3
+  },
+  {
+    "id": "x1c1s2k03",
+    "name": "变力冲量(F-t图像面积)",
+    "chapter": "第一章 动量守恒定律",
+    "section": "1.2 动量定理",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.3
+  },
+  {
+    "id": "x1c1s2k04",
+    "name": "缓冲问题(延长作用时间减小平均力)",
+    "chapter": "第一章 动量守恒定律",
+    "section": "1.2 动量定理",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.3
+  },
+  {
+    "id": "x1c1s2k05",
+    "name": "与牛顿第二定律的关系(F=ma是瞬时式，Ft=Δp是过程式)",
+    "chapter": "第一章 动量守恒定律",
+    "section": "1.2 动量定理",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.3
+  },
+  {
+    "id": "x1c1s3k01",
+    "name": "动量守恒",
+    "chapter": "第一章 动量守恒定律",
+    "section": "1.3 动量守恒定律",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.3
+  },
+  {
+    "id": "x1c1s3k02",
+    "name": "内力与外力区分(判断守恒的关键)",
+    "chapter": "第一章 动量守恒定律",
+    "section": "1.3 动量守恒定律",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.3
+  },
+  {
+    "id": "x1c1s3k03",
+    "name": "动量守恒方程",
+    "chapter": "第一章 动量守恒定律",
+    "section": "1.3 动量守恒定律",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.3
+  },
+  {
+    "id": "x1c1s3k04",
+    "name": "人船模型(位移关系)",
+    "chapter": "第一章 动量守恒定律",
+    "section": "1.3 动量守恒定律",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.3
+  },
+  {
+    "id": "x1c1s3k05",
+    "name": "动量守恒与动能变化",
+    "chapter": "第一章 动量守恒定律",
+    "section": "1.3 动量守恒定律",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.3
+  },
+  {
+    "id": "x1c1s3k06",
+    "name": "某方向动量守恒(合外力不为零但某方向为零)",
+    "chapter": "第一章 动量守恒定律",
+    "section": "1.3 动量守恒定律",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.3
+  },
+  {
+    "id": "x1c1s4k01",
+    "name": "实验原理",
+    "chapter": "第一章 动量守恒定律",
+    "section": "1.4 实验：验证动量守恒定律",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.3
+  },
+  {
+    "id": "x1c1s4k02",
+    "name": "实验操作",
+    "chapter": "第一章 动量守恒定律",
+    "section": "1.4 实验：验证动量守恒定律",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.3
+  },
+  {
+    "id": "x1c1s4k03",
+    "name": "实验条件控制(水平方向合外力为零)",
+    "chapter": "第一章 动量守恒定律",
+    "section": "1.4 实验：验证动量守恒定律",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.3
+  },
+  {
+    "id": "x1c1s4k04",
+    "name": "误差分析(摩擦/读数/落点分散/碰撞不正)",
+    "chapter": "第一章 动量守恒定律",
+    "section": "1.4 实验：验证动量守恒定律",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.3
+  },
+  {
+    "id": "x1c1s5k01",
+    "name": "弹性碰撞",
+    "chapter": "第一章 动量守恒定律",
+    "section": "1.5 弹性碰撞和非弹性碰撞",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.3
+  },
+  {
+    "id": "x1c1s5k02",
+    "name": "非弹性碰撞",
+    "chapter": "第一章 动量守恒定律",
+    "section": "1.5 弹性碰撞和非弹性碰撞",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.3
+  },
+  {
+    "id": "x1c1s5k03",
+    "name": "完全非弹性碰撞(碰后共速，动能损失最大)",
+    "chapter": "第一章 动量守恒定律",
+    "section": "1.5 弹性碰撞和非弹性碰撞",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.3
+  },
+  {
+    "id": "x1c1s5k04",
+    "name": "弹性碰撞中的能量分析",
+    "chapter": "第一章 动量守恒定律",
+    "section": "1.5 弹性碰撞和非弹性碰撞",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.3
+  },
+  {
+    "id": "x1c1s5k05",
+    "name": "碰撞综合判别三判据(动量守恒+动能不增+速度合理)",
+    "chapter": "第一章 动量守恒定律",
+    "section": "1.5 弹性碰撞和非弹性碰撞",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.3
+  },
+  {
+    "id": "x1c1s6k01",
+    "name": "反冲现象",
+    "chapter": "第一章 动量守恒定律",
+    "section": "1.6 反冲现象 火箭",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.3
+  },
+  {
+    "id": "x1c1s6k02",
+    "name": "火箭运动原理(喷气反冲)",
+    "chapter": "第一章 动量守恒定律",
+    "section": "1.6 反冲现象 火箭",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.3
+  },
+  {
+    "id": "x1c1s6k03",
+    "name": "反冲速度计算",
+    "chapter": "第一章 动量守恒定律",
+    "section": "1.6 反冲现象 火箭",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.3
+  },
+  {
+    "id": "x1c1s6k04",
+    "name": "反冲中的动量与能量",
+    "chapter": "第一章 动量守恒定律",
+    "section": "1.6 反冲现象 火箭",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.3
+  },
+  {
+    "id": "x1c2s1k01",
+    "name": "机械振动概念",
+    "chapter": "第二章 机械振动",
+    "section": "2.1 简谐运动",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.4000000000000004
+  },
+  {
+    "id": "x1c2s1k02",
+    "name": "简谐运动",
+    "chapter": "第二章 机械振动",
+    "section": "2.1 简谐运动",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.4000000000000004
+  },
+  {
+    "id": "x1c2s1k03",
+    "name": "平衡位置与位移(相对平衡位置的有向距离)",
+    "chapter": "第二章 机械振动",
+    "section": "2.1 简谐运动",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.4000000000000004
+  },
+  {
+    "id": "x1c2s1k04",
+    "name": "x-t图像",
+    "chapter": "第二章 机械振动",
+    "section": "2.1 简谐运动",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.4000000000000004
+  },
+  {
+    "id": "x1c2s2k01",
+    "name": "振幅+周期",
+    "chapter": "第二章 机械振动",
+    "section": "2.2 简谐运动的描述",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.4000000000000004
+  },
+  {
+    "id": "x1c2s2k02",
+    "name": "周期和频率",
+    "chapter": "第二章 机械振动",
+    "section": "2.2 简谐运动的描述",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.4000000000000004
+  },
+  {
+    "id": "x1c2s2k03",
+    "name": "相位",
+    "chapter": "第二章 机械振动",
+    "section": "2.2 简谐运动的描述",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.4000000000000004
+  },
+  {
+    "id": "x1c2s2k04",
+    "name": "简谐运动表达式 x=Asin(ωt+φ)",
+    "chapter": "第二章 机械振动",
+    "section": "2.2 简谐运动的描述",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.4000000000000004
+  },
+  {
+    "id": "x1c2s2k05",
+    "name": "角频率 ω=2π/T=2πf",
+    "chapter": "第二章 机械振动",
+    "section": "2.2 简谐运动的描述",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.4000000000000004
+  },
+  {
+    "id": "x1c2s3k01",
+    "name": "回复力",
+    "chapter": "第二章 机械振动",
+    "section": "2.3 简谐运动的回复力和能量",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.4000000000000004
+  },
+  {
+    "id": "x1c2s3k02",
+    "name": "动力学条件",
+    "chapter": "第二章 机械振动",
+    "section": "2.3 简谐运动的回复力和能量",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.4000000000000004
+  },
+  {
+    "id": "x1c2s3k03",
+    "name": "单摆回复力的切向分量分析",
+    "chapter": "第二章 机械振动",
+    "section": "2.3 简谐运动的回复力和能量",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.4000000000000004
+  },
+  {
+    "id": "x1c2s3k04",
+    "name": "振动中的能量转化(Ek↔Ep)",
+    "chapter": "第二章 机械振动",
+    "section": "2.3 简谐运动的回复力和能量",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.4000000000000004
+  },
+  {
+    "id": "x1c2s3k05",
+    "name": "位移/速度/加速度关系(平衡位置v最大a=0，最大位移v=0a最大)",
+    "chapter": "第二章 机械振动",
+    "section": "2.3 简谐运动的回复力和能量",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.4000000000000004
+  },
+  {
+    "id": "x1c2s4k01",
+    "name": "单摆模型",
+    "chapter": "第二章 机械振动",
+    "section": "2.4 单摆",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.4000000000000004
+  },
+  {
+    "id": "x1c2s4k02",
+    "name": "单摆回复力",
+    "chapter": "第二章 机械振动",
+    "section": "2.4 单摆",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.4000000000000004
+  },
+  {
+    "id": "x1c2s4k03",
+    "name": "周期公式",
+    "chapter": "第二章 机械振动",
+    "section": "2.4 单摆",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.4000000000000004
+  },
+  {
+    "id": "x1c2s4k04",
+    "name": "等效重力加速度(非惯性系/电场中的等效)",
+    "chapter": "第二章 机械振动",
+    "section": "2.4 单摆",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.4000000000000004
+  },
+  {
+    "id": "x1c2s5k01",
+    "name": "测g原理",
+    "chapter": "第二章 机械振动",
+    "section": "2.5 实验：用单摆测量重力加速度",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.4000000000000004
+  },
+  {
+    "id": "x1c2s5k02",
+    "name": "摆长测量(悬点到球心)",
+    "chapter": "第二章 机械振动",
+    "section": "2.5 实验：用单摆测量重力加速度",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.4000000000000004
+  },
+  {
+    "id": "x1c2s5k03",
+    "name": "周期测量(累积法减小误差)",
+    "chapter": "第二章 机械振动",
+    "section": "2.5 实验：用单摆测量重力加速度",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.4000000000000004
+  },
+  {
+    "id": "x1c2s5k04",
+    "name": "单摆测量重力加速度的误差分析",
+    "chapter": "第二章 机械振动",
+    "section": "2.5 实验：用单摆测量重力加速度",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.4000000000000004
+  },
+  {
+    "id": "x1c2s6k01",
+    "name": "固有振动",
+    "chapter": "第二章 机械振动",
+    "section": "2.6 受迫振动 共振",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.4000000000000004
+  },
+  {
+    "id": "x1c2s6k02",
+    "name": "受迫振动",
+    "chapter": "第二章 机械振动",
+    "section": "2.6 受迫振动 共振",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.4000000000000004
+  },
+  {
+    "id": "x1c2s6k03",
+    "name": "共振条件",
+    "chapter": "第二章 机械振动",
+    "section": "2.6 受迫振动 共振",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.4000000000000004
+  },
+  {
+    "id": "x1c2s6k04",
+    "name": "共振的应用与防止",
+    "chapter": "第二章 机械振动",
+    "section": "2.6 受迫振动 共振",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.4000000000000004
+  },
+  {
+    "id": "x1c3s1k01",
+    "name": "波的形成",
+    "chapter": "第三章 机械波",
+    "section": "3.1 波的形成",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.5
+  },
+  {
+    "id": "x1c3s1k02",
+    "name": "波的本质",
+    "chapter": "第三章 机械波",
+    "section": "3.1 波的形成",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.5
+  },
+  {
+    "id": "x1c3s1k03",
+    "name": "波传播的是振动",
+    "chapter": "第三章 机械波",
+    "section": "3.1 波的形成",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.5
+  },
+  {
+    "id": "x1c3s1k04",
+    "name": "机械波的传播条件",
+    "chapter": "第三章 机械波",
+    "section": "3.1 波的形成",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.5
+  },
+  {
+    "id": "x1c3s2k01",
+    "name": "波长+周期",
+    "chapter": "第三章 机械波",
+    "section": "3.2 波的描述",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.5
+  },
+  {
+    "id": "x1c3s2k02",
+    "name": "波的周期和频率(等于波源振动周期)",
+    "chapter": "第三章 机械波",
+    "section": "3.2 波的描述",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.5
+  },
+  {
+    "id": "x1c3s2k03",
+    "name": "波速概念",
+    "chapter": "第三章 机械波",
+    "section": "3.2 波的描述",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.5
+  },
+  {
+    "id": "x1c3s2k04",
+    "name": "波形图",
+    "chapter": "第三章 机械波",
+    "section": "3.2 波的描述",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.5
+  },
+  {
+    "id": "x1c3s2k05",
+    "name": "振动图+波形图",
+    "chapter": "第三章 机械波",
+    "section": "3.2 波的描述",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.5
+  },
+  {
+    "id": "x1c3s2k06",
+    "name": "波传播方向判断(微平移法/上下坡法)",
+    "chapter": "第三章 机械波",
+    "section": "3.2 波的描述",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.5
+  },
+  {
+    "id": "x1c3s2k07",
+    "name": "振动图与波形图互推",
+    "chapter": "第三章 机械波",
+    "section": "3.2 波的描述",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.5
+  },
+  {
+    "id": "x1c3s2k08",
+    "name": "波的多解问题(传播方向/周期/波长不确定性)",
+    "chapter": "第三章 机械波",
+    "section": "3.2 波的描述",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.5
+  },
+  {
+    "id": "x1c3s3k01",
+    "name": "波的反射",
+    "chapter": "第三章 机械波",
+    "section": "3.3 波的反射、折射和衍射",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.5
+  },
+  {
+    "id": "x1c3s3k02",
+    "name": "波的折射概念",
+    "chapter": "第三章 机械波",
+    "section": "3.3 波的反射、折射和衍射",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.5
+  },
+  {
+    "id": "x1c3s3k03",
+    "name": "波的衍射",
+    "chapter": "第三章 机械波",
+    "section": "3.3 波的反射、折射和衍射",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.5
+  },
+  {
+    "id": "x1c3s3k04",
+    "name": "明显衍射条件(障碍物尺寸≈波长)",
+    "chapter": "第三章 机械波",
+    "section": "3.3 波的反射、折射和衍射",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.5
+  },
+  {
+    "id": "x1c3s4k01",
+    "name": "波的叠加",
+    "chapter": "第三章 机械波",
+    "section": "3.4 波的干涉",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.5
+  },
+  {
+    "id": "x1c3s4k02",
+    "name": "干涉条件",
+    "chapter": "第三章 机械波",
+    "section": "3.4 波的干涉",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.5
+  },
+  {
+    "id": "x1c3s4k03",
+    "name": "加强区和减弱区(波程差Δr=nλ加强/(n+½)λ减弱)",
+    "chapter": "第三章 机械波",
+    "section": "3.4 波的干涉",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.5
+  },
+  {
+    "id": "x1c3s4k04",
+    "name": "干涉图样的分析",
+    "chapter": "第三章 机械波",
+    "section": "3.4 波的干涉",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.5
+  },
+  {
+    "id": "x1c3s5k01",
+    "name": "多普勒效应",
+    "chapter": "第三章 机械波",
+    "section": "3.5 多普勒效应",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.5
+  },
+  {
+    "id": "x1c3s5k02",
+    "name": "靠近时频率升高",
+    "chapter": "第三章 机械波",
+    "section": "3.5 多普勒效应",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.5
+  },
+  {
+    "id": "x1c3s5k03",
+    "name": "远离时频率降低",
+    "chapter": "第三章 机械波",
+    "section": "3.5 多普勒效应",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.5
+  },
+  {
+    "id": "x1c3s5k04",
+    "name": "多普勒效应的应用",
+    "chapter": "第三章 机械波",
+    "section": "3.5 多普勒效应",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.5
+  },
+  {
+    "id": "x1c4s1k01",
+    "name": "光的折射",
+    "chapter": "第四章 光",
+    "section": "4.1 光的折射",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.6
+  },
+  {
+    "id": "x1c4s1k02",
+    "name": "折射定律",
+    "chapter": "第四章 光",
+    "section": "4.1 光的折射",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.6
+  },
+  {
+    "id": "x1c4s1k03",
+    "name": "折射率",
+    "chapter": "第四章 光",
+    "section": "4.1 光的折射",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.6
+  },
+  {
+    "id": "x1c4s1k04",
+    "name": "光路可逆原理",
+    "chapter": "第四章 光",
+    "section": "4.1 光的折射",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.6
+  },
+  {
+    "id": "x1c4s1k05",
+    "name": "测量玻璃折射率(插针法)",
+    "chapter": "第四章 光",
+    "section": "4.1 光的折射",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.6
+  },
+  {
+    "id": "x1c4s2k01",
+    "name": "全反射",
+    "chapter": "第四章 光",
+    "section": "4.2 全反射",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.6
+  },
+  {
+    "id": "x1c4s2k02",
+    "name": "临界角 sinC=1/n",
+    "chapter": "第四章 光",
+    "section": "4.2 全反射",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.6
+  },
+  {
+    "id": "x1c4s2k03",
+    "name": "全反射时入射角与临界角关系",
+    "chapter": "第四章 光",
+    "section": "4.2 全反射",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.6
+  },
+  {
+    "id": "x1c4s2k04",
+    "name": "光导纤维(内芯+外套，全反射传播)",
+    "chapter": "第四章 光",
+    "section": "4.2 全反射",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.6
+  },
+  {
+    "id": "x1c4s3k01",
+    "name": "光的干涉",
+    "chapter": "第四章 光",
+    "section": "4.3 光的干涉",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.6
+  },
+  {
+    "id": "x1c4s3k02",
+    "name": "相干光条件(频率相同+相位差恒定)",
+    "chapter": "第四章 光",
+    "section": "4.3 光的干涉",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.6
+  },
+  {
+    "id": "x1c4s3k03",
+    "name": "双缝干涉条纹",
+    "chapter": "第四章 光",
+    "section": "4.3 光的干涉",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.6
+  },
+  {
+    "id": "x1c4s3k04",
+    "name": "双缝干涉条纹间距",
+    "chapter": "第四章 光",
+    "section": "4.3 光的干涉",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.6
+  },
+  {
+    "id": "x1c4s4k01",
+    "name": "实验原理",
+    "chapter": "第四章 光",
+    "section": "4.4 实验：用双缝干涉测量光的波长",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.6
+  },
+  {
+    "id": "x1c4s4k02",
+    "name": "条纹间距测量",
+    "chapter": "第四章 光",
+    "section": "4.4 实验：用双缝干涉测量光的波长",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.6
+  },
+  {
+    "id": "x1c4s4k03",
+    "name": "测量头读数(螺旋测微器原理)",
+    "chapter": "第四章 光",
+    "section": "4.4 实验：用双缝干涉测量光的波长",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.6
+  },
+  {
+    "id": "x1c4s4k04",
+    "name": "双缝实验误差来源分析",
+    "chapter": "第四章 光",
+    "section": "4.4 实验：用双缝干涉测量光的波长",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.6
+  },
+  {
+    "id": "x1c4s5k01",
+    "name": "光的衍射",
+    "chapter": "第四章 光",
+    "section": "4.5 光的衍射",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.6
+  },
+  {
+    "id": "x1c4s5k02",
+    "name": "单缝衍射(中央亮纹最宽)",
+    "chapter": "第四章 光",
+    "section": "4.5 光的衍射",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.6
+  },
+  {
+    "id": "x1c4s5k03",
+    "name": "圆孔衍射",
+    "chapter": "第四章 光",
+    "section": "4.5 光的衍射",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.6
+  },
+  {
+    "id": "x1c4s5k04",
+    "name": "干涉图样与衍射图样的比较",
+    "chapter": "第四章 光",
+    "section": "4.5 光的衍射",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.6
+  },
+  {
+    "id": "x1c4s6k01",
+    "name": "光的偏振",
+    "chapter": "第四章 光",
+    "section": "4.6 光的偏振 激光",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.6
+  },
+  {
+    "id": "x1c4s6k02",
+    "name": "偏振片(只允许特定方向振动通过)",
+    "chapter": "第四章 光",
+    "section": "4.6 光的偏振 激光",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.6
+  },
+  {
+    "id": "x1c4s6k03",
+    "name": "自然光(各方向振动均匀)和偏振光",
+    "chapter": "第四章 光",
+    "section": "4.6 光的偏振 激光",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.6
+  },
+  {
+    "id": "x1c4s6k04",
+    "name": "激光的特性与应用",
+    "chapter": "第四章 光",
+    "section": "4.6 光的偏振 激光",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.6
+  },
+  {
+    "id": "x1c4s6k05",
+    "name": "偏振的应用",
+    "chapter": "第四章 光",
+    "section": "4.6 光的偏振 激光",
+    "volume": "选择性必修 第一册",
+    "description": "",
+    "difficulty": 2.6
+  },
+  {
+    "id": "x2c1s1k01",
+    "name": "安培力存在条件",
+    "chapter": "第一章 安培力与洛伦兹力",
+    "section": "1.1 磁场对通电导线的作用力",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.7
+  },
+  {
+    "id": "x2c1s1k02",
+    "name": "左手定则+安培力",
+    "chapter": "第一章 安培力与洛伦兹力",
+    "section": "1.1 磁场对通电导线的作用力",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.7
+  },
+  {
+    "id": "x2c1s1k03",
+    "name": "安培力公式",
+    "chapter": "第一章 安培力与洛伦兹力",
+    "section": "1.1 磁场对通电导线的作用力",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.7
+  },
+  {
+    "id": "x2c1s1k04",
+    "name": "通电导线的平衡",
+    "chapter": "第一章 安培力与洛伦兹力",
+    "section": "1.1 磁场对通电导线的作用力",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.7
+  },
+  {
+    "id": "x2c1s1k05",
+    "name": "三维安培力平衡问题",
+    "chapter": "第一章 安培力与洛伦兹力",
+    "section": "1.1 磁场对通电导线的作用力",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.7
+  },
+  {
+    "id": "x2c1s1k06",
+    "name": "安培力做功与能量转化(电能↔机械能)",
+    "chapter": "第一章 安培力与洛伦兹力",
+    "section": "1.1 磁场对通电导线的作用力",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.7
+  },
+  {
+    "id": "x2c1s2k01",
+    "name": "洛伦兹力存在条件",
+    "chapter": "第一章 安培力与洛伦兹力",
+    "section": "1.2 磁场对运动电荷的作用力",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.7
+  },
+  {
+    "id": "x2c1s2k02",
+    "name": "洛伦兹力方向判断",
+    "chapter": "第一章 安培力与洛伦兹力",
+    "section": "1.2 磁场对运动电荷的作用力",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.7
+  },
+  {
+    "id": "x2c1s2k03",
+    "name": "洛伦兹力",
+    "chapter": "第一章 安培力与洛伦兹力",
+    "section": "1.2 磁场对运动电荷的作用力",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.7
+  },
+  {
+    "id": "x2c1s2k04",
+    "name": "洛伦兹力永不做功",
+    "chapter": "第一章 安培力与洛伦兹力",
+    "section": "1.2 磁场对运动电荷的作用力",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.7
+  },
+  {
+    "id": "x2c1s2k05",
+    "name": "电场力与洛伦兹力比较(F电可做功/f洛不做功)",
+    "chapter": "第一章 安培力与洛伦兹力",
+    "section": "1.2 磁场对运动电荷的作用力",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.7
+  },
+  {
+    "id": "x2c1s3k01",
+    "name": "匀速圆周运动",
+    "chapter": "第一章 安培力与洛伦兹力",
+    "section": "1.3 带电粒子在匀强磁场中的运动",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.7
+  },
+  {
+    "id": "x2c1s3k02",
+    "name": "半径公式",
+    "chapter": "第一章 安培力与洛伦兹力",
+    "section": "1.3 带电粒子在匀强磁场中的运动",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.7
+  },
+  {
+    "id": "x2c1s3k03",
+    "name": "周期公式T与v无关",
+    "chapter": "第一章 安培力与洛伦兹力",
+    "section": "1.3 带电粒子在匀强磁场中的运动",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.7
+  },
+  {
+    "id": "x2c1s3k04",
+    "name": "磁场运动时间的计算",
+    "chapter": "第一章 安培力与洛伦兹力",
+    "section": "1.3 带电粒子在匀强磁场中的运动",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.7
+  },
+  {
+    "id": "x2c1s3k05",
+    "name": "有界磁场中的临界问题(相切/最值)",
+    "chapter": "第一章 安培力与洛伦兹力",
+    "section": "1.3 带电粒子在匀强磁场中的运动",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.7
+  },
+  {
+    "id": "x2c1s3k06",
+    "name": "复合场中的速度选择器(v=E/B)",
+    "chapter": "第一章 安培力与洛伦兹力",
+    "section": "1.3 带电粒子在匀强磁场中的运动",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.7
+  },
+  {
+    "id": "x2c1s4k01",
+    "name": "质谱仪原理",
+    "chapter": "第一章 安培力与洛伦兹力",
+    "section": "1.4 质谱仪与回旋加速器",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.7
+  },
+  {
+    "id": "x2c1s4k02",
+    "name": "质谱仪公式联立(电场加速+磁场偏转)",
+    "chapter": "第一章 安培力与洛伦兹力",
+    "section": "1.4 质谱仪与回旋加速器",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.7
+  },
+  {
+    "id": "x2c1s4k03",
+    "name": "回旋加速器原理",
+    "chapter": "第一章 安培力与洛伦兹力",
+    "section": "1.4 质谱仪与回旋加速器",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.7
+  },
+  {
+    "id": "x2c1s4k04",
+    "name": "最大动能(由D形盒半径决定)",
+    "chapter": "第一章 安培力与洛伦兹力",
+    "section": "1.4 质谱仪与回旋加速器",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.7
+  },
+  {
+    "id": "x2c1s4k05",
+    "name": "加速器的适用条件",
+    "chapter": "第一章 安培力与洛伦兹力",
+    "section": "1.4 质谱仪与回旋加速器",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.7
+  },
+  {
+    "id": "x2c2s1k04",
+    "name": "楞次定律",
+    "chapter": "第二章 电磁感应",
+    "section": "2.1 楞次定律",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.8
+  },
+  {
+    "id": "x2c2s1k05",
+    "name": "感应电流方向的判断",
+    "chapter": "第二章 电磁感应",
+    "section": "2.1 楞次定律",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.8
+  },
+  {
+    "id": "x2c2s1k06",
+    "name": "电磁感应基础",
+    "chapter": "第二章 电磁感应",
+    "section": "2.1 楞次定律",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.8
+  },
+  {
+    "id": "x2c2s1k07",
+    "name": "楞次定律",
+    "chapter": "第二章 电磁感应",
+    "section": "2.1 楞次定律",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.8
+  },
+  {
+    "id": "x2c2s2k01",
+    "name": "感应电动势",
+    "chapter": "第二章 电磁感应",
+    "section": "2.2 法拉第电磁感应定律",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.8
+  },
+  {
+    "id": "x2c2s2k02",
+    "name": "法拉第定律",
+    "chapter": "第二章 电磁感应",
+    "section": "2.2 法拉第电磁感应定律",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.8
+  },
+  {
+    "id": "x2c2s2k03",
+    "name": "动生电动势(E=BLv)",
+    "chapter": "第二章 电磁感应",
+    "section": "2.2 法拉第电磁感应定律",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.8
+  },
+  {
+    "id": "x2c2s2k04",
+    "name": "感应电荷量 q=nΔΦ/R(与Δt无关)",
+    "chapter": "第二章 电磁感应",
+    "section": "2.2 法拉第电磁感应定律",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.8
+  },
+  {
+    "id": "x2c2s2k05",
+    "name": "电磁感应电路",
+    "chapter": "第二章 电磁感应",
+    "section": "2.2 法拉第电磁感应定律",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.8
+  },
+  {
+    "id": "x2c2s2k06",
+    "name": "电磁感应中的动力学",
+    "chapter": "第二章 电磁感应",
+    "section": "2.2 法拉第电磁感应定律",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.8
+  },
+  {
+    "id": "x2c2s2k07",
+    "name": "电磁感应中的能量守恒",
+    "chapter": "第二章 电磁感应",
+    "section": "2.2 法拉第电磁感应定律",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.8
+  },
+  {
+    "id": "x2c2s3k01",
+    "name": "涡流",
+    "chapter": "第二章 电磁感应",
+    "section": "2.3 涡流、电磁阻尼和电磁驱动",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.8
+  },
+  {
+    "id": "x2c2s3k02",
+    "name": "涡流的热效应及应用",
+    "chapter": "第二章 电磁感应",
+    "section": "2.3 涡流、电磁阻尼和电磁驱动",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.8
+  },
+  {
+    "id": "x2c2s3k03",
+    "name": "电磁阻尼(涡流受安培力阻碍运动)",
+    "chapter": "第二章 电磁感应",
+    "section": "2.3 涡流、电磁阻尼和电磁驱动",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.8
+  },
+  {
+    "id": "x2c2s3k04",
+    "name": "电磁驱动(旋转磁场驱动金属)",
+    "chapter": "第二章 电磁感应",
+    "section": "2.3 涡流、电磁阻尼和电磁驱动",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.8
+  },
+  {
+    "id": "x2c2s4k01",
+    "name": "互感",
+    "chapter": "第二章 电磁感应",
+    "section": "2.4 互感和自感",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.8
+  },
+  {
+    "id": "x2c2s4k02",
+    "name": "自感",
+    "chapter": "第二章 电磁感应",
+    "section": "2.4 互感和自感",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.8
+  },
+  {
+    "id": "x2c2s4k03",
+    "name": "自感电动势方向(阻碍原电流变化)",
+    "chapter": "第二章 电磁感应",
+    "section": "2.4 互感和自感",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.8
+  },
+  {
+    "id": "x2c2s4k04",
+    "name": "自感线圈电路暂态过程(通断瞬间)",
+    "chapter": "第二章 电磁感应",
+    "section": "2.4 互感和自感",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.8
+  },
+  {
+    "id": "x2c2s4k05",
+    "name": "自感系数和磁场能量",
+    "chapter": "第二章 电磁感应",
+    "section": "2.4 互感和自感",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.8
+  },
+  {
+    "id": "x2c3s1k01",
+    "name": "交变电流概念",
+    "chapter": "第三章 交变电流",
+    "section": "3.1 交变电流",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.9000000000000004
+  },
+  {
+    "id": "x2c3s1k02",
+    "name": "正弦交变电流产生",
+    "chapter": "第三章 交变电流",
+    "section": "3.1 交变电流",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.9000000000000004
+  },
+  {
+    "id": "x2c3s1k03",
+    "name": "瞬时值表达式",
+    "chapter": "第三章 交变电流",
+    "section": "3.1 交变电流",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.9000000000000004
+  },
+  {
+    "id": "x2c3s1k04",
+    "name": "中性面(Φ最大/e=0)",
+    "chapter": "第三章 交变电流",
+    "section": "3.1 交变电流",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.9000000000000004
+  },
+  {
+    "id": "x2c3s2k01",
+    "name": "交流电的周期与频率",
+    "chapter": "第三章 交变电流",
+    "section": "3.2 交变电流的描述",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.9000000000000004
+  },
+  {
+    "id": "x2c3s2k02",
+    "name": "有效值",
+    "chapter": "第三章 交变电流",
+    "section": "3.2 交变电流的描述",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.9000000000000004
+  },
+  {
+    "id": "x2c3s2k03",
+    "name": "平均值(对应ΔΦ/Δt)",
+    "chapter": "第三章 交变电流",
+    "section": "3.2 交变电流的描述",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.9000000000000004
+  },
+  {
+    "id": "x2c3s2k04",
+    "name": "交流功率计算 P=UIcosφ",
+    "chapter": "第三章 交变电流",
+    "section": "3.2 交变电流的描述",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.9000000000000004
+  },
+  {
+    "id": "x2c3s2k05",
+    "name": "电阻概念",
+    "chapter": "第三章 交变电流",
+    "section": "3.2 交变电流的描述",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.9000000000000004
+  },
+  {
+    "id": "x2c3s2k06",
+    "name": "电容对交流的阻碍(容抗 XC=1/(2πfC))",
+    "chapter": "第三章 交变电流",
+    "section": "3.2 交变电流的描述",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.9000000000000004
+  },
+  {
+    "id": "x2c3s2k07",
+    "name": "电感对交流电的作用",
+    "chapter": "第三章 交变电流",
+    "section": "3.2 交变电流的描述",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.9000000000000004
+  },
+  {
+    "id": "x2c3s3k01",
+    "name": "互感/自感",
+    "chapter": "第三章 交变电流",
+    "section": "3.3 变压器",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.9000000000000004
+  },
+  {
+    "id": "x2c3s3k02",
+    "name": "电压关系",
+    "chapter": "第三章 交变电流",
+    "section": "3.3 变压器",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.9000000000000004
+  },
+  {
+    "id": "x2c3s3k03",
+    "name": "电流关系 I₁/I₂=n₂/n₁(单副线圈P₁=P₂)",
+    "chapter": "第三章 交变电流",
+    "section": "3.3 变压器",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.9000000000000004
+  },
+  {
+    "id": "x2c3s3k04",
+    "name": "变压器的动态分析",
+    "chapter": "第三章 交变电流",
+    "section": "3.3 变压器",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.9000000000000004
+  },
+  {
+    "id": "x2c3s3k05",
+    "name": "多副线圈变压器(用功率守恒P入=P出)",
+    "chapter": "第三章 交变电流",
+    "section": "3.3 变压器",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.9000000000000004
+  },
+  {
+    "id": "x2c3s4k01",
+    "name": "输电线损耗",
+    "chapter": "第三章 交变电流",
+    "section": "3.4 电能的输送",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.9000000000000004
+  },
+  {
+    "id": "x2c3s4k02",
+    "name": "高压输电原理",
+    "chapter": "第三章 交变电流",
+    "section": "3.4 电能的输送",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.9000000000000004
+  },
+  {
+    "id": "x2c3s4k03",
+    "name": "远距离输电过程",
+    "chapter": "第三章 交变电流",
+    "section": "3.4 电能的输送",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.9000000000000004
+  },
+  {
+    "id": "x2c3s4k04",
+    "name": "输电效率计算",
+    "chapter": "第三章 交变电流",
+    "section": "3.4 电能的输送",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 2.9000000000000004
+  },
+  {
+    "id": "x2c4s1k01",
+    "name": "LC振荡",
+    "chapter": "第四章 电磁振荡与电磁波",
+    "section": "4.1 电磁振荡",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 3.0
+  },
+  {
+    "id": "x2c4s1k02",
+    "name": "电磁振荡过程",
+    "chapter": "第四章 电磁振荡与电磁波",
+    "section": "4.1 电磁振荡",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 3.0
+  },
+  {
+    "id": "x2c4s1k03",
+    "name": "振荡周期 T=2π√(LC)",
+    "chapter": "第四章 电磁振荡与电磁波",
+    "section": "4.1 电磁振荡",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 3.0
+  },
+  {
+    "id": "x2c4s1k04",
+    "name": "LC振荡中的能量转化",
+    "chapter": "第四章 电磁振荡与电磁波",
+    "section": "4.1 电磁振荡",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 3.0
+  },
+  {
+    "id": "x2c4s2k01",
+    "name": "麦克斯韦理论",
+    "chapter": "第四章 电磁振荡与电磁波",
+    "section": "4.2 电磁场与电磁波",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 3.0
+  },
+  {
+    "id": "x2c4s2k02",
+    "name": "电磁波形成",
+    "chapter": "第四章 电磁振荡与电磁波",
+    "section": "4.2 电磁场与电磁波",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 3.0
+  },
+  {
+    "id": "x2c4s2k03",
+    "name": "电磁波的传播特性",
+    "chapter": "第四章 电磁振荡与电磁波",
+    "section": "4.2 电磁场与电磁波",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 3.0
+  },
+  {
+    "id": "x2c4s2k04",
+    "name": "电磁波携带能量",
+    "chapter": "第四章 电磁振荡与电磁波",
+    "section": "4.2 电磁场与电磁波",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 3.0
+  },
+  {
+    "id": "x2c4s3k01",
+    "name": "发射条件",
+    "chapter": "第四章 电磁振荡与电磁波",
+    "section": "4.3 无线电波的发射和接收",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 3.0
+  },
+  {
+    "id": "x2c4s3k02",
+    "name": "调制",
+    "chapter": "第四章 电磁振荡与电磁波",
+    "section": "4.3 无线电波的发射和接收",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 3.0
+  },
+  {
+    "id": "x2c4s3k03",
+    "name": "调谐与共振(电谐振——接收特定频率)",
+    "chapter": "第四章 电磁振荡与电磁波",
+    "section": "4.3 无线电波的发射和接收",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 3.0
+  },
+  {
+    "id": "x2c4s3k04",
+    "name": "解调(从已调波中提取原信号)",
+    "chapter": "第四章 电磁振荡与电磁波",
+    "section": "4.3 无线电波的发射和接收",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 3.0
+  },
+  {
+    "id": "x2c4s4k01",
+    "name": "电磁波谱",
+    "chapter": "第四章 电磁振荡与电磁波",
+    "section": "4.4 电磁波谱",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 3.0
+  },
+  {
+    "id": "x2c4s4k02",
+    "name": "波长/频率/能量关系(c=λf, E=hν)",
+    "chapter": "第四章 电磁振荡与电磁波",
+    "section": "4.4 电磁波谱",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 3.0
+  },
+  {
+    "id": "x2c4s4k03",
+    "name": "电磁辐射与防护",
+    "chapter": "第四章 电磁振荡与电磁波",
+    "section": "4.4 电磁波谱",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 3.0
+  },
+  {
+    "id": "x2c4s4k04",
+    "name": "电磁波的应用",
+    "chapter": "第四章 电磁振荡与电磁波",
+    "section": "4.4 电磁波谱",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 3.0
+  },
+  {
+    "id": "x2c5s1k01",
+    "name": "传感器概念",
+    "chapter": "第五章 传感器",
+    "section": "5.1 认识传感器",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 3.1
+  },
+  {
+    "id": "x2c5s1k02",
+    "name": "传感器系统组成(敏感元件/转换元件/转换电路)",
+    "chapter": "第五章 传感器",
+    "section": "5.1 认识传感器",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 3.1
+  },
+  {
+    "id": "x2c5s1k03",
+    "name": "非电学量向电学量的转换",
+    "chapter": "第五章 传感器",
+    "section": "5.1 认识传感器",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 3.1
+  },
+  {
+    "id": "x2c5s2k01",
+    "name": "热敏电阻",
+    "chapter": "第五章 传感器",
+    "section": "5.2 常见传感器的工作原理及应用",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 3.1
+  },
+  {
+    "id": "x2c5s2k02",
+    "name": "光敏电阻",
+    "chapter": "第五章 传感器",
+    "section": "5.2 常见传感器的工作原理及应用",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 3.1
+  },
+  {
+    "id": "x2c5s2k03",
+    "name": "金属热电阻",
+    "chapter": "第五章 传感器",
+    "section": "5.2 常见传感器的工作原理及应用",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 3.1
+  },
+  {
+    "id": "x2c5s2k04",
+    "name": "电容式传感器",
+    "chapter": "第五章 传感器",
+    "section": "5.2 常见传感器的工作原理及应用",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 3.1
+  },
+  {
+    "id": "x2c5s2k05",
+    "name": "霍尔元件",
+    "chapter": "第五章 传感器",
+    "section": "5.2 常见传感器的工作原理及应用",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 3.1
+  },
+  {
+    "id": "x2c5s2k06",
+    "name": "力传感器",
+    "chapter": "第五章 传感器",
+    "section": "5.2 常见传感器的工作原理及应用",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 3.1
+  },
+  {
+    "id": "x2c5s2k07",
+    "name": "传感器电路分析",
+    "chapter": "第五章 传感器",
+    "section": "5.2 常见传感器的工作原理及应用",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 3.1
+  },
+  {
+    "id": "x2c5s3k01",
+    "name": "传感器信号的输出",
+    "chapter": "第五章 传感器",
+    "section": "5.3 利用传感器制作简单的自动控制装置",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 3.1
+  },
+  {
+    "id": "x2c5s3k02",
+    "name": "继电器控制(弱电控制强电)",
+    "chapter": "第五章 传感器",
+    "section": "5.3 利用传感器制作简单的自动控制装置",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 3.1
+  },
+  {
+    "id": "x2c5s3k03",
+    "name": "自动控制电路的设计",
+    "chapter": "第五章 传感器",
+    "section": "5.3 利用传感器制作简单的自动控制装置",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 3.1
+  },
+  {
+    "id": "x2c5s3k04",
+    "name": "传感器装置的调试",
+    "chapter": "第五章 传感器",
+    "section": "5.3 利用传感器制作简单的自动控制装置",
+    "volume": "选择性必修 第二册",
+    "description": "",
+    "difficulty": 3.1
+  },
+  {
+    "id": "x3c1s1k01",
+    "name": "分子动理论",
+    "chapter": "第一章 分子动理论",
+    "section": "1.1 分子动理论的基本内容",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.2
+  },
+  {
+    "id": "x3c1s1k02",
+    "name": "阿伏伽德罗常量",
+    "chapter": "第一章 分子动理论",
+    "section": "1.1 分子动理论的基本内容",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.2
+  },
+  {
+    "id": "x3c1s1k03",
+    "name": "微观量估算(分子质量/体积/间距)",
+    "chapter": "第一章 分子动理论",
+    "section": "1.1 分子动理论的基本内容",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.2
+  },
+  {
+    "id": "x3c1s1k04",
+    "name": "布朗运动(悬浮微粒运动反映分子热运动)",
+    "chapter": "第一章 分子动理论",
+    "section": "1.1 分子动理论的基本内容",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.2
+  },
+  {
+    "id": "x3c1s1k05",
+    "name": "分子热运动",
+    "chapter": "第一章 分子动理论",
+    "section": "1.1 分子动理论的基本内容",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.2
+  },
+  {
+    "id": "x3c1s1k06",
+    "name": "分子间作用力",
+    "chapter": "第一章 分子动理论",
+    "section": "1.1 分子动理论的基本内容",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.2
+  },
+  {
+    "id": "x3c1s1k07",
+    "name": "分子力与距离关系(斥力/引力主导区域)",
+    "chapter": "第一章 分子动理论",
+    "section": "1.1 分子动理论的基本内容",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.2
+  },
+  {
+    "id": "x3c1s2k01",
+    "name": "油膜法思想",
+    "chapter": "第一章 分子动理论",
+    "section": "1.2 实验：用油膜法估测油酸分子的大小",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.2
+  },
+  {
+    "id": "x3c1s2k02",
+    "name": "体积换算+面积估算",
+    "chapter": "第一章 分子动理论",
+    "section": "1.2 实验：用油膜法估测油酸分子的大小",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.2
+  },
+  {
+    "id": "x3c1s2k03",
+    "name": "油膜面积估算(方格纸法)",
+    "chapter": "第一章 分子动理论",
+    "section": "1.2 实验：用油膜法估测油酸分子的大小",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.2
+  },
+  {
+    "id": "x3c1s2k04",
+    "name": "油膜法误差分析",
+    "chapter": "第一章 分子动理论",
+    "section": "1.2 实验：用油膜法估测油酸分子的大小",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.2
+  },
+  {
+    "id": "x3c1s3k01",
+    "name": "统计规律",
+    "chapter": "第一章 分子动理论",
+    "section": "1.3 分子运动速率分布规律",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.2
+  },
+  {
+    "id": "x3c1s3k02",
+    "name": "速率分布",
+    "chapter": "第一章 分子动理论",
+    "section": "1.3 分子运动速率分布规律",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.2
+  },
+  {
+    "id": "x3c1s3k03",
+    "name": "温度对速率分布的影响",
+    "chapter": "第一章 分子动理论",
+    "section": "1.3 分子运动速率分布规律",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.2
+  },
+  {
+    "id": "x3c1s3k04",
+    "name": "气体压强的微观解释",
+    "chapter": "第一章 分子动理论",
+    "section": "1.3 分子运动速率分布规律",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.2
+  },
+  {
+    "id": "x3c1s4k01",
+    "name": "分子平均动能",
+    "chapter": "第一章 分子动理论",
+    "section": "1.4 分子动能和分子势能",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.2
+  },
+  {
+    "id": "x3c1s4k02",
+    "name": "分子势能(由分子相对位置决定)",
+    "chapter": "第一章 分子动理论",
+    "section": "1.4 分子动能和分子势能",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.2
+  },
+  {
+    "id": "x3c1s4k03",
+    "name": "内能概念",
+    "chapter": "第一章 分子动理论",
+    "section": "1.4 分子动能和分子势能",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.2
+  },
+  {
+    "id": "x3c1s4k04",
+    "name": "内能影响因素(温度/体积/物质的量/物态)",
+    "chapter": "第一章 分子动理论",
+    "section": "1.4 分子动能和分子势能",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.2
+  },
+  {
+    "id": "x3c1s4k05",
+    "name": "内能与机械能(宏观)的比较",
+    "chapter": "第一章 分子动理论",
+    "section": "1.4 分子动能和分子势能",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.2
+  },
+  {
+    "id": "x3c2s1k01",
+    "name": "热平衡",
+    "chapter": "第二章 气体、固体和液体",
+    "section": "2.1 温度和温标",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.3000000000000003
+  },
+  {
+    "id": "x3c2s1k02",
+    "name": "温度概念",
+    "chapter": "第二章 气体、固体和液体",
+    "section": "2.1 温度和温标",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.3000000000000003
+  },
+  {
+    "id": "x3c2s1k03",
+    "name": "热力学温标",
+    "chapter": "第二章 气体、固体和液体",
+    "section": "2.1 温度和温标",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.3000000000000003
+  },
+  {
+    "id": "x3c2s1k04",
+    "name": "摄氏温标与热力学温标的换算",
+    "chapter": "第二章 气体、固体和液体",
+    "section": "2.1 温度和温标",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.3000000000000003
+  },
+  {
+    "id": "x3c2s2k01",
+    "name": "等温变化",
+    "chapter": "第二章 气体、固体和液体",
+    "section": "2.2 气体的等温变化",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.3000000000000003
+  },
+  {
+    "id": "x3c2s2k02",
+    "name": "玻意耳定律",
+    "chapter": "第二章 气体、固体和液体",
+    "section": "2.2 气体的等温变化",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.3000000000000003
+  },
+  {
+    "id": "x3c2s2k03",
+    "name": "p-V图像(等温线为双曲线)",
+    "chapter": "第二章 气体、固体和液体",
+    "section": "2.2 气体的等温变化",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.3000000000000003
+  },
+  {
+    "id": "x3c2s2k04",
+    "name": "等温变化实验验证",
+    "chapter": "第二章 气体、固体和液体",
+    "section": "2.2 气体的等温变化",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.3000000000000003
+  },
+  {
+    "id": "x3c2s2k05",
+    "name": "气柱模型(液柱封闭气体)",
+    "chapter": "第二章 气体、固体和液体",
+    "section": "2.2 气体的等温变化",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.3000000000000003
+  },
+  {
+    "id": "x3c2s3k01",
+    "name": "等压变化",
+    "chapter": "第二章 气体、固体和液体",
+    "section": "2.3 气体的等压变化和等容变化",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.3000000000000003
+  },
+  {
+    "id": "x3c2s3k02",
+    "name": "盖吕萨克定律 V/T=C",
+    "chapter": "第二章 气体、固体和液体",
+    "section": "2.3 气体的等压变化和等容变化",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.3000000000000003
+  },
+  {
+    "id": "x3c2s3k03",
+    "name": "等容变化",
+    "chapter": "第二章 气体、固体和液体",
+    "section": "2.3 气体的等压变化和等容变化",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.3000000000000003
+  },
+  {
+    "id": "x3c2s3k04",
+    "name": "查理定律 p/T=C",
+    "chapter": "第二章 气体、固体和液体",
+    "section": "2.3 气体的等压变化和等容变化",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.3000000000000003
+  },
+  {
+    "id": "x3c2s3k05",
+    "name": "理想气体状态方程",
+    "chapter": "第二章 气体、固体和液体",
+    "section": "2.3 气体的等压变化和等容变化",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.3000000000000003
+  },
+  {
+    "id": "x3c2s3k06",
+    "name": "理想气体模型",
+    "chapter": "第二章 气体、固体和液体",
+    "section": "2.3 气体的等压变化和等容变化",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.3000000000000003
+  },
+  {
+    "id": "x3c2s3k07",
+    "name": "气体状态变化综合(选择定律/方程)",
+    "chapter": "第二章 气体、固体和液体",
+    "section": "2.3 气体的等压变化和等容变化",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.3000000000000003
+  },
+  {
+    "id": "x3c2s4k01",
+    "name": "晶体和非晶体",
+    "chapter": "第二章 气体、固体和液体",
+    "section": "2.4 固体",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.3000000000000003
+  },
+  {
+    "id": "x3c2s4k02",
+    "name": "单晶体和多晶体",
+    "chapter": "第二章 气体、固体和液体",
+    "section": "2.4 固体",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.3000000000000003
+  },
+  {
+    "id": "x3c2s4k03",
+    "name": "液晶",
+    "chapter": "第二章 气体、固体和液体",
+    "section": "2.4 固体",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.3000000000000003
+  },
+  {
+    "id": "x3c2s4k04",
+    "name": "晶体的微观结构",
+    "chapter": "第二章 气体、固体和液体",
+    "section": "2.4 固体",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.3000000000000003
+  },
+  {
+    "id": "x3c2s5k01",
+    "name": "表面张力与浸润",
+    "chapter": "第二章 气体、固体和液体",
+    "section": "2.5 液体",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.3000000000000003
+  },
+  {
+    "id": "x3c2s5k02",
+    "name": "毛细现象",
+    "chapter": "第二章 气体、固体和液体",
+    "section": "2.5 液体",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.3000000000000003
+  },
+  {
+    "id": "x3c2s5k03",
+    "name": "液体的微观结构",
+    "chapter": "第二章 气体、固体和液体",
+    "section": "2.5 液体",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.3000000000000003
+  },
+  {
+    "id": "x3c2s5k04",
+    "name": "液体性质的应用",
+    "chapter": "第二章 气体、固体和液体",
+    "section": "2.5 液体",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.3000000000000003
+  },
+  {
+    "id": "x3c3s1k01",
+    "name": "改变内能的两种方式",
+    "chapter": "第三章 热力学定律",
+    "section": "3.1 功、热和内能的改变",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.4000000000000004
+  },
+  {
+    "id": "x3c3s1k02",
+    "name": "做功改变内能",
+    "chapter": "第三章 热力学定律",
+    "section": "3.1 功、热和内能的改变",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.4000000000000004
+  },
+  {
+    "id": "x3c3s1k03",
+    "name": "热传递改变内能(热量是过程量)",
+    "chapter": "第三章 热力学定律",
+    "section": "3.1 功、热和内能的改变",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.4000000000000004
+  },
+  {
+    "id": "x3c3s1k04",
+    "name": "功和热量比较(都是过程量，内能是状态量)",
+    "chapter": "第三章 热力学定律",
+    "section": "3.1 功、热和内能的改变",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.4000000000000004
+  },
+  {
+    "id": "x3c3s2k01",
+    "name": "ΔU=W+Q",
+    "chapter": "第三章 热力学定律",
+    "section": "3.2 热力学第一定律",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.4000000000000004
+  },
+  {
+    "id": "x3c3s2k02",
+    "name": "符号规则(W/Q/ΔU正负)",
+    "chapter": "第三章 热力学定律",
+    "section": "3.2 热力学第一定律",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.4000000000000004
+  },
+  {
+    "id": "x3c3s2k03",
+    "name": "Q=-W",
+    "chapter": "第三章 热力学定律",
+    "section": "3.2 热力学第一定律",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.4000000000000004
+  },
+  {
+    "id": "x3c3s2k04",
+    "name": "等容过程能量分析(W=0)",
+    "chapter": "第三章 热力学定律",
+    "section": "3.2 热力学第一定律",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.4000000000000004
+  },
+  {
+    "id": "x3c3s2k05",
+    "name": "等压过程能量分析(Q=ΔU+W)",
+    "chapter": "第三章 热力学定律",
+    "section": "3.2 热力学第一定律",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.4000000000000004
+  },
+  {
+    "id": "x3c3s2k06",
+    "name": "理想气体热力学第一定律总结(三过程统一)",
+    "chapter": "第三章 热力学定律",
+    "section": "3.2 热力学第一定律",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.4000000000000004
+  },
+  {
+    "id": "x3c3s3k01",
+    "name": "能量守恒",
+    "chapter": "第三章 热力学定律",
+    "section": "3.3 能量守恒定律",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.4000000000000004
+  },
+  {
+    "id": "x3c3s3k02",
+    "name": "第一类永动机不可能",
+    "chapter": "第三章 热力学定律",
+    "section": "3.3 能量守恒定律",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.4000000000000004
+  },
+  {
+    "id": "x3c3s3k03",
+    "name": "能量转化与转移",
+    "chapter": "第三章 热力学定律",
+    "section": "3.3 能量守恒定律",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.4000000000000004
+  },
+  {
+    "id": "x3c3s4k01",
+    "name": "过程方向性",
+    "chapter": "第三章 热力学定律",
+    "section": "3.4 热力学第二定律",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.4000000000000004
+  },
+  {
+    "id": "x3c3s4k02",
+    "name": "转化方向性",
+    "chapter": "第三章 热力学定律",
+    "section": "3.4 热力学第二定律",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.4000000000000004
+  },
+  {
+    "id": "x3c3s4k03",
+    "name": "热机效率的限制",
+    "chapter": "第三章 热力学定律",
+    "section": "3.4 热力学第二定律",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.4000000000000004
+  },
+  {
+    "id": "x3c3s4k04",
+    "name": "熵和无序性定性认识",
+    "chapter": "第三章 热力学定律",
+    "section": "3.4 热力学第二定律",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.4000000000000004
+  },
+  {
+    "id": "x3c3s4k05",
+    "name": "能源利用方向性和可持续发展",
+    "chapter": "第三章 热力学定律",
+    "section": "3.4 热力学第二定律",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.4000000000000004
+  },
+  {
+    "id": "x3c4s1k01",
+    "name": "黑体辐射",
+    "chapter": "第四章 原子结构和波粒二象性",
+    "section": "4.1 普朗克黑体辐射理论",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.5
+  },
+  {
+    "id": "x3c4s1k02",
+    "name": "经典物理困难",
+    "chapter": "第四章 原子结构和波粒二象性",
+    "section": "4.1 普朗克黑体辐射理论",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.5
+  },
+  {
+    "id": "x3c4s1k03",
+    "name": "能量子",
+    "chapter": "第四章 原子结构和波粒二象性",
+    "section": "4.1 普朗克黑体辐射理论",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.5
+  },
+  {
+    "id": "x3c4s2k01",
+    "name": "光电效应现象",
+    "chapter": "第四章 原子结构和波粒二象性",
+    "section": "4.2 光电效应",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.5
+  },
+  {
+    "id": "x3c4s2k02",
+    "name": "光电效应的实验规律",
+    "chapter": "第四章 原子结构和波粒二象性",
+    "section": "4.2 光电效应",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.5
+  },
+  {
+    "id": "x3c4s2k03",
+    "name": "光子概念",
+    "chapter": "第四章 原子结构和波粒二象性",
+    "section": "4.2 光电效应",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.5
+  },
+  {
+    "id": "x3c4s2k04",
+    "name": "光电效应方程",
+    "chapter": "第四章 原子结构和波粒二象性",
+    "section": "4.2 光电效应",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.5
+  },
+  {
+    "id": "x3c4s2k05",
+    "name": "遏止电压 eUc=Ekmax",
+    "chapter": "第四章 原子结构和波粒二象性",
+    "section": "4.2 光电效应",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.5
+  },
+  {
+    "id": "x3c4s3k01",
+    "name": "康普顿效应",
+    "chapter": "第四章 原子结构和波粒二象性",
+    "section": "4.3 光的波粒二象性",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.5
+  },
+  {
+    "id": "x3c4s3k02",
+    "name": "光子动量 p=h/λ",
+    "chapter": "第四章 原子结构和波粒二象性",
+    "section": "4.3 光的波粒二象性",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.5
+  },
+  {
+    "id": "x3c4s3k03",
+    "name": "光的波粒二象性",
+    "chapter": "第四章 原子结构和波粒二象性",
+    "section": "4.3 光的波粒二象性",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.5
+  },
+  {
+    "id": "x3c4s4k01",
+    "name": "汤姆孙模型",
+    "chapter": "第四章 原子结构和波粒二象性",
+    "section": "4.4 原子的核式结构模型",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.5
+  },
+  {
+    "id": "x3c4s4k02",
+    "name": "α粒子散射实验",
+    "chapter": "第四章 原子结构和波粒二象性",
+    "section": "4.4 原子的核式结构模型",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.5
+  },
+  {
+    "id": "x3c4s4k03",
+    "name": "核式结构",
+    "chapter": "第四章 原子结构和波粒二象性",
+    "section": "4.4 原子的核式结构模型",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.5
+  },
+  {
+    "id": "x3c4s4k04",
+    "name": "核式结构局限",
+    "chapter": "第四章 原子结构和波粒二象性",
+    "section": "4.4 原子的核式结构模型",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.5
+  },
+  {
+    "id": "x3c4s5k01",
+    "name": "氢原子光谱",
+    "chapter": "第四章 原子结构和波粒二象性",
+    "section": "4.5 玻尔原子模型",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.5
+  },
+  {
+    "id": "x3c4s5k02",
+    "name": "定态假设",
+    "chapter": "第四章 原子结构和波粒二象性",
+    "section": "4.5 玻尔原子模型",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.5
+  },
+  {
+    "id": "x3c4s5k03",
+    "name": "跃迁假设",
+    "chapter": "第四章 原子结构和波粒二象性",
+    "section": "4.5 玻尔原子模型",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.5
+  },
+  {
+    "id": "x3c4s5k04",
+    "name": "能级图与光谱分析(谱线计数/巴尔末系)",
+    "chapter": "第四章 原子结构和波粒二象性",
+    "section": "4.5 玻尔原子模型",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.5
+  },
+  {
+    "id": "x3c4s5k05",
+    "name": "玻尔模型的局限性",
+    "chapter": "第四章 原子结构和波粒二象性",
+    "section": "4.5 玻尔原子模型",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.5
+  },
+  {
+    "id": "x3c4s6k01",
+    "name": "物质波假设",
+    "chapter": "第四章 原子结构和波粒二象性",
+    "section": "4.6 粒子的波动性",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.5
+  },
+  {
+    "id": "x3c4s6k02",
+    "name": "电子衍射实验验证",
+    "chapter": "第四章 原子结构和波粒二象性",
+    "section": "4.6 粒子的波动性",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.5
+  },
+  {
+    "id": "x3c4s6k03",
+    "name": "不确定性关系",
+    "chapter": "第四章 原子结构和波粒二象性",
+    "section": "4.6 粒子的波动性",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.5
+  },
+  {
+    "id": "x3c4s6k04",
+    "name": "物质波波长",
+    "chapter": "第四章 原子结构和波粒二象性",
+    "section": "4.6 粒子的波动性",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.5
+  },
+  {
+    "id": "x3c5s1k01",
+    "name": "核子概念",
+    "chapter": "第五章 原子核",
+    "section": "5.1 原子核的组成",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.6
+  },
+  {
+    "id": "x3c5s1k02",
+    "name": "质量数和电荷数",
+    "chapter": "第五章 原子核",
+    "section": "5.1 原子核的组成",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.6
+  },
+  {
+    "id": "x3c5s1k03",
+    "name": "同位素(质子数相同/中子数不同)",
+    "chapter": "第五章 原子核",
+    "section": "5.1 原子核的组成",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.6
+  },
+  {
+    "id": "x3c5s1k04",
+    "name": "核反应方程",
+    "chapter": "第五章 原子核",
+    "section": "5.1 原子核的组成",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.6
+  },
+  {
+    "id": "x3c5s2k01",
+    "name": "天然放射现象",
+    "chapter": "第五章 原子核",
+    "section": "5.2 放射性元素的衰变",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.6
+  },
+  {
+    "id": "x3c5s2k02",
+    "name": "α/β/γ射线性质(电离/穿透/偏转)",
+    "chapter": "第五章 原子核",
+    "section": "5.2 放射性元素的衰变",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.6
+  },
+  {
+    "id": "x3c5s2k03",
+    "name": "放射性衰变",
+    "chapter": "第五章 原子核",
+    "section": "5.2 放射性元素的衰变",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.6
+  },
+  {
+    "id": "x3c5s2k04",
+    "name": "β衰变的核反应方程",
+    "chapter": "第五章 原子核",
+    "section": "5.2 放射性元素的衰变",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.6
+  },
+  {
+    "id": "x3c5s2k05",
+    "name": "半衰期概念",
+    "chapter": "第五章 原子核",
+    "section": "5.2 放射性元素的衰变",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.6
+  },
+  {
+    "id": "x3c5s2k06",
+    "name": "衰变规律计算(剩余核数/质量)",
+    "chapter": "第五章 原子核",
+    "section": "5.2 放射性元素的衰变",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.6
+  },
+  {
+    "id": "x3c5s3k01",
+    "name": "核力",
+    "chapter": "第五章 原子核",
+    "section": "5.3 核力与结合能",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.6
+  },
+  {
+    "id": "x3c5s3k02",
+    "name": "结合能",
+    "chapter": "第五章 原子核",
+    "section": "5.3 核力与结合能",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.6
+  },
+  {
+    "id": "x3c5s3k03",
+    "name": "质量亏损",
+    "chapter": "第五章 原子核",
+    "section": "5.3 核力与结合能",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.6
+  },
+  {
+    "id": "x3c5s3k04",
+    "name": "质能方程",
+    "chapter": "第五章 原子核",
+    "section": "5.3 核力与结合能",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.6
+  },
+  {
+    "id": "x3c5s3k05",
+    "name": "比结合能(反映核稳定程度)",
+    "chapter": "第五章 原子核",
+    "section": "5.3 核力与结合能",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.6
+  },
+  {
+    "id": "x3c5s4k01",
+    "name": "核裂变",
+    "chapter": "第五章 原子核",
+    "section": "5.4 核裂变与核聚变",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.6
+  },
+  {
+    "id": "x3c5s4k02",
+    "name": "链式反应",
+    "chapter": "第五章 原子核",
+    "section": "5.4 核裂变与核聚变",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.6
+  },
+  {
+    "id": "x3c5s4k03",
+    "name": "核反应堆(可控链式反应)",
+    "chapter": "第五章 原子核",
+    "section": "5.4 核裂变与核聚变",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.6
+  },
+  {
+    "id": "x3c5s4k04",
+    "name": "核聚变及其能量释放",
+    "chapter": "第五章 原子核",
+    "section": "5.4 核裂变与核聚变",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.6
+  },
+  {
+    "id": "x3c5s4k05",
+    "name": "裂变聚变能量比较(比结合能变化)",
+    "chapter": "第五章 原子核",
+    "section": "5.4 核裂变与核聚变",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.6
+  },
+  {
+    "id": "x3c5s5k01",
+    "name": "粒子分类",
+    "chapter": "第五章 原子核",
+    "section": "5.5 “基本”粒子",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.6
+  },
+  {
+    "id": "x3c5s5k02",
+    "name": "夸克模型",
+    "chapter": "第五章 原子核",
+    "section": "5.5 “基本”粒子",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.6
+  },
+  {
+    "id": "x3c5s5k03",
+    "name": "四种基本相互作用",
+    "chapter": "第五章 原子核",
+    "section": "5.5 “基本”粒子",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.6
+  },
+  {
+    "id": "x3c5s5k04",
+    "name": "粒子物理的研究方法",
+    "chapter": "第五章 原子核",
+    "section": "5.5 “基本”粒子",
+    "volume": "选择性必修 第三册",
+    "description": "",
+    "difficulty": 3.6
+  }
+]

@@ -1,0 +1,77 @@
+.android-question-pane {
+  min-height: 100vh;
+  background: #ffffff;
+  color: #0f172a;
+  padding: 16px 18px 24px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.android-question-pane-readonly {
+  min-height: auto;
+  padding-bottom: 12px;
+  overflow-y: visible;
+}
+
+.android-question-pane .question-stem-panel,
+.android-question-pane .choice-answer-panel,
+.android-question-pane .grading-result-panel {
+  max-width: none;
+}
+
+.android-question-pane-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+  color: #0f172a;
+  font-size: 1rem;
+}
+
+.android-question-pane-header span {
+  color: #64748b;
+  font-weight: 700;
+}
+
+.android-question-pane-header strong {
+  font-size: 1.08rem;
+}
+
+.android-question-pane-state {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  justify-content: flex-start;
+}
+
+.android-question-pane-state h1 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.android-question-pane-state p {
+  margin: 0;
+  color: #64748b;
+}
+
+.android-question-pane-skeleton {
+  height: 104px;
+  border-radius: 16px;
+  background: linear-gradient(90deg, #f1f5f9 0%, #e2e8f0 48%, #f8fafc 100%);
+  background-size: 220% 100%;
+  animation: openphysics-pane-loading 1.2s ease-in-out infinite;
+}
+
+.android-question-pane-skeleton.short {
+  width: 62%;
+  height: 64px;
+}
+
+@keyframes openphysics-pane-loading {
+  0% {
+    background-position: 120% 0;
+  }
+  100% {
+    background-position: -120% 0;
+  }
+}

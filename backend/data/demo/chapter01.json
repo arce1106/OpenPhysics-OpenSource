@@ -1,0 +1,805 @@
+{
+  "title": "第一章 运动的描述",
+  "provenance": "由 AI 新编的演示内容，未转录教材或商业题库；使用前可由教师复核。",
+  "license": "LicenseRef-OpenPhysics-SelfHost-Commercial-1.0",
+  "questions": [
+    {
+      "id": "demo_ch01_001",
+      "stem_text": "研究下列问题时，最适合把演示小车看成质点的是哪一项？",
+      "answer": "A",
+      "explanation": "比较小车沿长直轨道行驶 50 m 的用时，只需关注整体位置变化，车身尺寸可以忽略。",
+      "question_type": "single_choice",
+      "difficulty": 1.0,
+      "difficulty_tier": "easy",
+      "source": "ai_generated",
+      "quality_status": "approved",
+      "labels": [
+        {
+          "label_type": "knowledge_point",
+          "label_id": "v1c1s1k01",
+          "source": "demo"
+        },
+        {
+          "label_type": "question_type",
+          "label_id": "single_choice",
+          "source": "demo"
+        }
+      ],
+      "formulas": [],
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "比较小车沿长直轨道行驶 50 m 的用时",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "观察车轮上某点的转动轨迹",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "测量车身长度",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "分析小车翻转时的姿态",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "demo_ch01_002",
+      "stem_text": "乘客坐在沿直线匀速行驶的校车上。以校车座椅为参考系，乘客的状态是什么？",
+      "answer": "B",
+      "explanation": "乘客相对于座椅的位置不变，因此以座椅为参考系时乘客静止。",
+      "question_type": "single_choice",
+      "difficulty": 1.0,
+      "difficulty_tier": "easy",
+      "source": "ai_generated",
+      "quality_status": "approved",
+      "labels": [
+        {
+          "label_type": "knowledge_point",
+          "label_id": "v1c1s1k02",
+          "source": "demo"
+        },
+        {
+          "label_type": "question_type",
+          "label_id": "single_choice",
+          "source": "demo"
+        }
+      ],
+      "formulas": [],
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "沿道路运动",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "静止",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "一定加速运动",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "不能选择座椅为参考系",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "demo_ch01_003",
+      "stem_text": "甲、乙两辆演示小车以相同速度沿同一直线同向运动。以甲车为参考系，乙车如何运动？",
+      "answer": "C",
+      "explanation": "两车的相对位置保持不变，因此乙相对于甲静止。",
+      "question_type": "single_choice",
+      "difficulty": 1.0,
+      "difficulty_tier": "easy",
+      "source": "ai_generated",
+      "quality_status": "approved",
+      "labels": [
+        {
+          "label_type": "knowledge_point",
+          "label_id": "v1c1s1k02",
+          "source": "demo"
+        },
+        {
+          "label_type": "question_type",
+          "label_id": "single_choice",
+          "source": "demo"
+        }
+      ],
+      "formulas": [],
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "反向匀速运动",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "同向加速运动",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "静止",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "text": "一定转弯",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "demo_ch01_004",
+      "stem_text": "关于参考系，下列说法正确的有哪些？",
+      "answer": "AC",
+      "explanation": "运动描述依赖参考系；参考系可以是运动物体。改变参考系不会改变物体的质量。",
+      "question_type": "multiple_choice",
+      "difficulty": 1.0,
+      "difficulty_tier": "easy",
+      "source": "ai_generated",
+      "quality_status": "approved",
+      "labels": [
+        {
+          "label_type": "knowledge_point",
+          "label_id": "v1c1s1k02",
+          "source": "demo"
+        },
+        {
+          "label_type": "question_type",
+          "label_id": "multiple_choice",
+          "source": "demo"
+        }
+      ],
+      "formulas": [],
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "描述运动前应明确参考系",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "参考系必须静止在地面上",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "同一物体相对于不同参考系可能有不同运动状态",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "text": "改变参考系会改变物体本身的质量",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "demo_ch01_005",
+      "stem_text": "同一辆演示小车，研究它沿长直轨道行驶的用时和研究车轮上某点的转动轨迹时，能否都不考虑物体大小和形状？说明理由。",
+      "answer": "不能一概而论；前一问题通常可简化为质点，后一问题必须考虑车轮的大小和转动。",
+      "explanation": "质点模型取决于研究问题；轨道行驶用时关注整体位置变化，而车轮上某点的轨迹与车轮半径和转动有关。",
+      "question_type": "problem_solving",
+      "difficulty": 2.0,
+      "difficulty_tier": "medium",
+      "source": "ai_generated",
+      "quality_status": "approved",
+      "labels": [
+        {
+          "label_type": "knowledge_point",
+          "label_id": "v1c1s1k01",
+          "source": "demo"
+        },
+        {
+          "label_type": "question_type",
+          "label_id": "problem_solving",
+          "source": "demo"
+        }
+      ],
+      "formulas": [],
+      "images": [],
+      "options": []
+    },
+    {
+      "id": "demo_ch01_006",
+      "stem_text": "实验在 09:12:20 开始，在 09:12:32 结束。持续多长时间？",
+      "answer": "B",
+      "explanation": "结束时刻减去开始时刻，时间间隔为 12 s。",
+      "question_type": "single_choice",
+      "difficulty": 1.0,
+      "difficulty_tier": "easy",
+      "source": "ai_generated",
+      "quality_status": "approved",
+      "labels": [
+        {
+          "label_type": "knowledge_point",
+          "label_id": "v1c1s2k01",
+          "source": "demo"
+        },
+        {
+          "label_type": "question_type",
+          "label_id": "single_choice",
+          "source": "demo"
+        }
+      ],
+      "formulas": [],
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "10 s",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "12 s",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "20 s",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "32 s",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "demo_ch01_007",
+      "stem_text": "物块从坐标 x = -2 m 运动到 x = 5 m。位移是多少？",
+      "answer": "C",
+      "explanation": "位移为末坐标减初坐标：5 - (-2) = +7 m。",
+      "question_type": "single_choice",
+      "difficulty": 1.0,
+      "difficulty_tier": "easy",
+      "source": "ai_generated",
+      "quality_status": "approved",
+      "labels": [
+        {
+          "label_type": "knowledge_point",
+          "label_id": "v1c1s2k02",
+          "source": "demo"
+        },
+        {
+          "label_type": "question_type",
+          "label_id": "single_choice",
+          "source": "demo"
+        }
+      ],
+      "formulas": [],
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "-7 m",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "+3 m",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "+7 m",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "text": "+10 m",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "demo_ch01_008",
+      "stem_text": "小车先向东行驶 6 m，再向西行驶 2 m。规定向东为正方向，路程和位移分别为多少？",
+      "answer": "A",
+      "explanation": "路程为 6 + 2 = 8 m；位移为 6 - 2 = +4 m。",
+      "question_type": "single_choice",
+      "difficulty": 1.0,
+      "difficulty_tier": "easy",
+      "source": "ai_generated",
+      "quality_status": "approved",
+      "labels": [
+        {
+          "label_type": "knowledge_point",
+          "label_id": "v1c1s2k02",
+          "source": "demo"
+        },
+        {
+          "label_type": "question_type",
+          "label_id": "single_choice",
+          "source": "demo"
+        }
+      ],
+      "formulas": [],
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "8 m，+4 m",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "4 m，+8 m",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "8 m，-4 m",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "4 m，-8 m",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "demo_ch01_009",
+      "stem_text": "计时器从 t = 1.5 s 走到 t = 6.5 s，对应时间间隔为 ____ s。",
+      "answer": "5",
+      "explanation": "时间间隔为 6.5 - 1.5 = 5 s。",
+      "question_type": "fill_in_blank",
+      "difficulty": 2.0,
+      "difficulty_tier": "medium",
+      "source": "ai_generated",
+      "quality_status": "approved",
+      "labels": [
+        {
+          "label_type": "knowledge_point",
+          "label_id": "v1c1s2k01",
+          "source": "demo"
+        },
+        {
+          "label_type": "question_type",
+          "label_id": "fill_in_blank",
+          "source": "demo"
+        }
+      ],
+      "formulas": [],
+      "images": [],
+      "options": []
+    },
+    {
+      "id": "demo_ch01_010",
+      "stem_text": "小车先从 x = 1 m 向右运动到 x = 8 m，再向左运动到 x = 4 m。求总路程和总位移，规定向右为正方向。",
+      "answer": "路程 11 m；位移 +3 m。",
+      "explanation": "两段路程分别为 7 m 和 4 m，总路程为 11 m；总位移为 4 - 1 = +3 m。",
+      "question_type": "problem_solving",
+      "difficulty": 2.0,
+      "difficulty_tier": "medium",
+      "source": "ai_generated",
+      "quality_status": "approved",
+      "labels": [
+        {
+          "label_type": "knowledge_point",
+          "label_id": "v1c1s2k02",
+          "source": "demo"
+        },
+        {
+          "label_type": "question_type",
+          "label_id": "problem_solving",
+          "source": "demo"
+        }
+      ],
+      "formulas": [],
+      "images": [],
+      "options": []
+    },
+    {
+      "id": "demo_ch01_011",
+      "stem_text": "小车沿直线以恒定速度 3 m/s 运动 4 s，位移大小是多少？",
+      "answer": "C",
+      "explanation": "匀速直线运动中位移大小为速度乘以时间：3 × 4 = 12 m。",
+      "question_type": "single_choice",
+      "difficulty": 1.0,
+      "difficulty_tier": "easy",
+      "source": "ai_generated",
+      "quality_status": "approved",
+      "labels": [
+        {
+          "label_type": "knowledge_point",
+          "label_id": "v1c1s3k01",
+          "source": "demo"
+        },
+        {
+          "label_type": "question_type",
+          "label_id": "single_choice",
+          "source": "demo"
+        }
+      ],
+      "formulas": [],
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "3 m",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "4 m",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "12 m",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "text": "24 m",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "demo_ch01_012",
+      "stem_text": "位置—时间图像如图。小车在 0 至 4 s 内的平均速度为多少？",
+      "answer": "B",
+      "explanation": "位置从 0 m 变到 12 m，用时 4 s，平均速度为 +3 m/s。",
+      "question_type": "single_choice",
+      "difficulty": 1.0,
+      "difficulty_tier": "easy",
+      "source": "ai_generated",
+      "quality_status": "approved",
+      "labels": [
+        {
+          "label_type": "knowledge_point",
+          "label_id": "v1c1s3k01",
+          "source": "demo"
+        },
+        {
+          "label_type": "question_type",
+          "label_id": "single_choice",
+          "source": "demo"
+        }
+      ],
+      "formulas": [],
+      "images": [
+        {
+          "ref": "demo_position_time.svg",
+          "alt": "位置时间图像：从 (0 s, 0 m) 到 (4 s, 12 m) 的直线。"
+        }
+      ],
+      "options": [
+        {
+          "label": "A",
+          "text": "+2 m/s",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "+3 m/s",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "+4 m/s",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "+12 m/s",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "demo_ch01_013",
+      "stem_text": "关于平均速度和平均速率，下列说法正确的有哪些？",
+      "answer": "BD",
+      "explanation": "平均速度使用位移，平均速率使用路程；返回起点时位移为零，但路程通常大于零。",
+      "question_type": "multiple_choice",
+      "difficulty": 1.0,
+      "difficulty_tier": "easy",
+      "source": "ai_generated",
+      "quality_status": "approved",
+      "labels": [
+        {
+          "label_type": "knowledge_point",
+          "label_id": "v1c1s3k02",
+          "source": "demo"
+        },
+        {
+          "label_type": "question_type",
+          "label_id": "multiple_choice",
+          "source": "demo"
+        }
+      ],
+      "formulas": [],
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "平均速度大小总等于平均速率",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "平均速度等于位移与时间间隔之比",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "往返运动的平均速率一定为零",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "返回起点的运动，平均速度为零",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "id": "demo_ch01_014",
+      "stem_text": "规定向右为正。物块在 3 s 内从 x = 7 m 运动到 x = 1 m，平均速度为 ____ m/s。",
+      "answer": "-2",
+      "explanation": "位移为 1 - 7 = -6 m，平均速度为 -6/3 = -2 m/s。",
+      "question_type": "fill_in_blank",
+      "difficulty": 2.0,
+      "difficulty_tier": "medium",
+      "source": "ai_generated",
+      "quality_status": "approved",
+      "labels": [
+        {
+          "label_type": "knowledge_point",
+          "label_id": "v1c1s3k01",
+          "source": "demo"
+        },
+        {
+          "label_type": "question_type",
+          "label_id": "fill_in_blank",
+          "source": "demo"
+        }
+      ],
+      "formulas": [],
+      "images": [],
+      "options": []
+    },
+    {
+      "id": "demo_ch01_015",
+      "stem_text": "小车向东行驶 8 m 用时 4 s，再向西行驶 2 m 用时 2 s。求全过程的平均速度和平均速率，规定向东为正方向。",
+      "answer": "平均速度 +1 m/s；平均速率 5/3 m/s。",
+      "explanation": "总位移 +6 m，总路程 10 m，总时间 6 s；平均速度 +6/6 = +1 m/s，平均速率 10/6 = 5/3 m/s。",
+      "question_type": "problem_solving",
+      "difficulty": 2.0,
+      "difficulty_tier": "medium",
+      "source": "ai_generated",
+      "quality_status": "approved",
+      "labels": [
+        {
+          "label_type": "knowledge_point",
+          "label_id": "v1c1s3k02",
+          "source": "demo"
+        },
+        {
+          "label_type": "question_type",
+          "label_id": "problem_solving",
+          "source": "demo"
+        }
+      ],
+      "formulas": [],
+      "images": [],
+      "options": []
+    },
+    {
+      "id": "demo_ch01_016",
+      "stem_text": "小车沿正方向运动，速度在 3 s 内由 1 m/s 均匀增至 7 m/s。加速度为多少？",
+      "answer": "B",
+      "explanation": "加速度为 (7 - 1)/3 = +2 m/s²。",
+      "question_type": "single_choice",
+      "difficulty": 1.0,
+      "difficulty_tier": "easy",
+      "source": "ai_generated",
+      "quality_status": "approved",
+      "labels": [
+        {
+          "label_type": "knowledge_point",
+          "label_id": "v1c1s4k01",
+          "source": "demo"
+        },
+        {
+          "label_type": "question_type",
+          "label_id": "single_choice",
+          "source": "demo"
+        }
+      ],
+      "formulas": [],
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "+1 m/s²",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "+2 m/s²",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "+3 m/s²",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "+6 m/s²",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "demo_ch01_017",
+      "stem_text": "规定向右为正。小车此时速度 -4 m/s，加速度 +1 m/s²。在速度变为零之前，速率如何变化？",
+      "answer": "C",
+      "explanation": "速度与加速度方向相反，因此速率减小。",
+      "question_type": "single_choice",
+      "difficulty": 1.0,
+      "difficulty_tier": "easy",
+      "source": "ai_generated",
+      "quality_status": "approved",
+      "labels": [
+        {
+          "label_type": "knowledge_point",
+          "label_id": "v1c1s4k02",
+          "source": "demo"
+        },
+        {
+          "label_type": "question_type",
+          "label_id": "single_choice",
+          "source": "demo"
+        }
+      ],
+      "formulas": [],
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "增大",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "不变",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "减小",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "text": "无法判断",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "demo_ch01_018",
+      "stem_text": "关于直线运动，下列说法正确的有哪些？",
+      "answer": "AC",
+      "explanation": "速度很大时也可能匀速，加速度为零；速度与加速度同向时速率增大，负加速度不一定表示减速。",
+      "question_type": "multiple_choice",
+      "difficulty": 1.0,
+      "difficulty_tier": "easy",
+      "source": "ai_generated",
+      "quality_status": "approved",
+      "labels": [
+        {
+          "label_type": "knowledge_point",
+          "label_id": "v1c1s4k02",
+          "source": "demo"
+        },
+        {
+          "label_type": "question_type",
+          "label_id": "multiple_choice",
+          "source": "demo"
+        }
+      ],
+      "formulas": [],
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "速度很大时，加速度仍可能为零",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "加速度为负时，速率一定减小",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "速度与加速度同向时，速率增大",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "text": "瞬时速度为零时，加速度必定为零",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": "demo_ch01_019",
+      "stem_text": "规定向东为正。物块速度在 2 s 内从 +5 m/s 变为 +1 m/s，平均加速度为 ____ m/s²。",
+      "answer": "-2",
+      "explanation": "平均加速度为 (1 - 5)/2 = -2 m/s²。",
+      "question_type": "fill_in_blank",
+      "difficulty": 2.0,
+      "difficulty_tier": "medium",
+      "source": "ai_generated",
+      "quality_status": "approved",
+      "labels": [
+        {
+          "label_type": "knowledge_point",
+          "label_id": "v1c1s4k01",
+          "source": "demo"
+        },
+        {
+          "label_type": "question_type",
+          "label_id": "fill_in_blank",
+          "source": "demo"
+        }
+      ],
+      "formulas": [],
+      "images": [],
+      "options": []
+    },
+    {
+      "id": "demo_ch01_020",
+      "stem_text": "规定向右为正。小车速度在 4 s 内从 -6 m/s 均匀变为 -2 m/s。求加速度，并说明运动方向和速率变化。",
+      "answer": "加速度 +1 m/s²；向左运动，速率减小。",
+      "explanation": "加速度为 [-2 - (-6)]/4 = +1 m/s²；速度始终为负，故向左运动；速率由 6 m/s 减为 2 m/s。",
+      "question_type": "problem_solving",
+      "difficulty": 2.0,
+      "difficulty_tier": "medium",
+      "source": "ai_generated",
+      "quality_status": "approved",
+      "labels": [
+        {
+          "label_type": "knowledge_point",
+          "label_id": "v1c1s4k02",
+          "source": "demo"
+        },
+        {
+          "label_type": "question_type",
+          "label_id": "problem_solving",
+          "source": "demo"
+        }
+      ],
+      "formulas": [],
+      "images": [],
+      "options": []
+    }
+  ]
+}

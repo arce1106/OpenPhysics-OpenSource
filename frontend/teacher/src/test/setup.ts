@@ -1,0 +1,8 @@
+import '@testing-library/jest-dom/vitest';
+import { afterEach } from 'vitest';
+
+afterEach(() => {
+  window.localStorage.clear();
+  window.sessionStorage.clear();
+  vi.restoreAllMocks();
+});
