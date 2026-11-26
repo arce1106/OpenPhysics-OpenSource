@@ -34,6 +34,14 @@ build/
 *.p12
 *.pfx
 *.pem
+*.p8
+*.mobileprovision
+*.provisionprofile
+*.ipa
+*.xcarchive/
+**/xcuserdata/
+**/local.properties
+**/ExportOptions.plist
 backend/app/static/uploads/
 backend/static/uploads/
 /屏幕录制 *.mp4
