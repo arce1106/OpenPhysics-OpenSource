@@ -50,7 +50,7 @@ function draft(items: Array<{ q: BankQuestion; points: number; box: 'small' | 'm
   };
 }
 
-type Handler = (init?: RequestInit) => { status?: number; body: unknown; raw?: Blob };
+type Handler = (init?: RequestInit) => { status?: number; body: unknown; raw?: Uint8Array };
 
 function mockApi(routes: Record<string, Handler>) {
   const calls: Array<{ key: string; init?: RequestInit }> = [];
@@ -63,7 +63,7 @@ function mockApi(routes: Record<string, Handler>) {
     const result = handler(init);
     if (result.status === 204) return new Response(null, { status: 204 });
     if (result.raw) return new Response(result.raw, {
-      status: result.status ?? 200, headers: { 'Content-Type': result.raw.type },
+      status: result.status ?? 200, headers: { 'Content-Type': 'application/pdf' },
     });
     return new Response(JSON.stringify(result.body), { status: result.status ?? 200 });
   });
@@ -155,7 +155,7 @@ test('teacher PDF downloads the teacher edition with a distinct file name', asyn
   const calls = mockApi({
     'GET /api/teacher/assignments/a_1': () => ({ body: { ...paper([{ q: Q1, points: 4, box: null }]), status: 'saved' } }),
     'GET /api/teacher/classes': () => ({ body: [] }),
-    'GET /api/teacher/assignments/a_1/pdf': () => ({ body: null, raw: new Blob(['%PDF-1.7'], { type: 'application/pdf' }) }),
+    'GET /api/teacher/assignments/a_1/pdf': () => ({ body: null, raw: new TextEncoder().encode('%PDF-1.7') }),
   });
   try {
     render(<App />);
@@ -541,7 +541,7 @@ test('下载 PDF saves a PDF file from paper management without opening print', 
   vi.spyOn(HTMLAnchorElement.prototype, 'click').mockImplementation(function (this: HTMLAnchorElement) { clicked.push(this); });
   const calls = mockApi({
     'GET /api/teacher/assignments/a_1': () => ({ body: { ...paper([{ q: Q1, points: 4, box: null }]), status: 'saved' } }),
-    'GET /api/teacher/assignments/a_1/pdf': () => ({ body: null, raw: new Blob(['%PDF-1.7'], { type: 'application/pdf' }) }),
+    'GET /api/teacher/assignments/a_1/pdf': () => ({ body: null, raw: new TextEncoder().encode('%PDF-1.7') }),
     'GET /api/teacher/classes': () => ({ body: [] }),
   });
   render(<App />);
